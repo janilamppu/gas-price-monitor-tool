@@ -9,5 +9,8 @@ module.exports.handler = async (event, context, callback) => {
     body: JSON.stringify(data),
   };
 
+  // print response
+  console.log(response);
+
   callback(null, response);
 };
