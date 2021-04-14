@@ -1,0 +1,24 @@
+{
+  "name": "gas-price-monitor-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janilamppu/gas-price-monitor-tool.git"
+  },
+  "author": "Jani Lamppu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janilamppu/gas-price-monitor-tool/issues"
+  },
+  "homepage": "https://github.com/janilamppu/gas-price-monitor-tool#readme",
+  "dependencies": {
+    "aws-sdk": "^2.884.0",
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.6"
+  }
+}
