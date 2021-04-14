@@ -78,6 +78,13 @@
         "RetentionInDays": 14
       }
     },
+    "APILogGroup": {
+      "Type": "AWS::Logs::LogGroup",
+      "Properties": {
+        "LogGroupName": "/aws/lambda/gas-price-monitor-tool-dev-API",
+        "RetentionInDays": 14
+      }
+    },
     "IamRoleLambdaExecution": {
       "Type": "AWS::IAM::Role",
       "Properties": {
@@ -176,9 +183,9 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/gas-price-monitor-tool/dev/1618051293838-2021-04-10T10:41:33.838Z/gas-price-monitor-tool.zip"
+          "S3Key": "serverless/gas-price-monitor-tool/dev/1618432051746-2021-04-14T20:27:31.746Z/gas-price-monitor-tool.zip"
         },
-        "Handler": "index.handler",
+        "Handler": "src/poller.handler",
         "Runtime": "nodejs14.x",
         "FunctionName": "gas-price-monitor-tool-dev-MonitorTool",
         "MemorySize": 1024,
@@ -187,7 +194,9 @@
           "Variables": {
             "gasPriceBucket": "gas-price-bucket",
             "gasPriceDataFile": "priceData",
-            "gasDataUrl": "https://www.gasum.com/yksityisille/tankkaa-kaasua/tankkaushinnat/"
+            "gasDataUrl": "https://www.gasum.com/yksityisille/tankkaa-kaasua/tankkaushinnat/",
+            "emailSender": "jani.lamppu@gmail.com",
+            "emailReceiver": "jani.lamppu@gmail.com"
           }
         },
         "Role": {
@@ -201,14 +210,58 @@
         "MonitorToolLogGroup"
       ]
     },
-    "MonitorToolLambdaVersionBqHwtd0PSPUFJHmu8o9vMQyyU71D4p4hYKSviLtgxMU": {
+    "APILambdaFunction": {
+      "Type": "AWS::Lambda::Function",
+      "Properties": {
+        "Code": {
+          "S3Bucket": {
+            "Ref": "ServerlessDeploymentBucket"
+          },
+          "S3Key": "serverless/gas-price-monitor-tool/dev/1618432051746-2021-04-14T20:27:31.746Z/gas-price-monitor-tool.zip"
+        },
+        "Handler": "src/api.handler",
+        "Runtime": "nodejs14.x",
+        "FunctionName": "gas-price-monitor-tool-dev-API",
+        "MemorySize": 1024,
+        "Timeout": 6,
+        "Environment": {
+          "Variables": {
+            "gasPriceBucket": "gas-price-bucket",
+            "gasPriceDataFile": "priceData",
+            "gasDataUrl": "https://www.gasum.com/yksityisille/tankkaa-kaasua/tankkaushinnat/",
+            "emailSender": "jani.lamppu@gmail.com",
+            "emailReceiver": "jani.lamppu@gmail.com"
+          }
+        },
+        "Role": {
+          "Fn::GetAtt": [
+            "IamRoleLambdaExecution",
+            "Arn"
+          ]
+        }
+      },
+      "DependsOn": [
+        "APILogGroup"
+      ]
+    },
+    "MonitorToolLambdaVersionRtYzIhcQ0f7KlsPSmH7BSx4ZDVup6kbiFsuEqorZ0": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "MonitorToolLambdaFunction"
         },
-        "CodeSha256": "eZSWsFmYUBghi+BVWIP9rpnPCxCZ/6xA1PL9pNyOWIQ="
+        "CodeSha256": "n8t4+hpXs0276nKF8Mp2mvceqy4OG7na8JcfkNyE/l0="
+      }
+    },
+    "APILambdaVersiona0aHFACzUKpIW5bNMkfMdJ0w8xvRtjzkcF5PCO30iM": {
+      "Type": "AWS::Lambda::Version",
+      "DeletionPolicy": "Retain",
+      "Properties": {
+        "FunctionName": {
+          "Ref": "APILambdaFunction"
+        },
+        "CodeSha256": "n8t4+hpXs0276nKF8Mp2mvceqy4OG7na8JcfkNyE/l0="
       }
     },
     "MonitorToolEventsRuleSchedule1": {
@@ -248,6 +301,169 @@
         }
       }
     },
+    "ApiGatewayRestApi": {
+      "Type": "AWS::ApiGateway::RestApi",
+      "Properties": {
+        "Name": "gas-price-monitor-tool-dev",
+        "EndpointConfiguration": {
+          "Types": [
+            "EDGE"
+          ]
+        },
+        "Policy": ""
+      }
+    },
+    "ApiGatewayResourceGetDashprices": {
+      "Type": "AWS::ApiGateway::Resource",
+      "Properties": {
+        "ParentId": {
+          "Fn::GetAtt": [
+            "ApiGatewayRestApi",
+            "RootResourceId"
+          ]
+        },
+        "PathPart": "get-prices",
+        "RestApiId": {
+          "Ref": "ApiGatewayRestApi"
+        }
+      }
+    },
+    "ApiGatewayMethodGetDashpricesGet": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "HttpMethod": "GET",
+        "RequestParameters": {},
+        "ResourceId": {
+          "Ref": "ApiGatewayResourceGetDashprices"
+        },
+        "RestApiId": {
+          "Ref": "ApiGatewayRestApi"
+        },
+        "ApiKeyRequired": true,
+        "AuthorizationType": "NONE",
+        "Integration": {
+          "IntegrationHttpMethod": "POST",
+          "Type": "AWS_PROXY",
+          "Uri": {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":apigateway:",
+                {
+                  "Ref": "AWS::Region"
+                },
+                ":lambda:path/2015-03-31/functions/",
+                {
+                  "Fn::GetAtt": [
+                    "APILambdaFunction",
+                    "Arn"
+                  ]
+                },
+                "/invocations"
+              ]
+            ]
+          }
+        },
+        "MethodResponses": []
+      }
+    },
+    "ApiGatewayDeployment1618432049483": {
+      "Type": "AWS::ApiGateway::Deployment",
+      "Properties": {
+        "RestApiId": {
+          "Ref": "ApiGatewayRestApi"
+        },
+        "StageName": "dev"
+      },
+      "DependsOn": [
+        "ApiGatewayMethodGetDashpricesGet"
+      ]
+    },
+    "ApiGatewayApiKey1": {
+      "Type": "AWS::ApiGateway::ApiKey",
+      "Properties": {
+        "Enabled": true,
+        "Name": "key",
+        "StageKeys": [
+          {
+            "RestApiId": {
+              "Ref": "ApiGatewayRestApi"
+            },
+            "StageName": "dev"
+          }
+        ]
+      },
+      "DependsOn": "ApiGatewayDeployment1618432049483"
+    },
+    "ApiGatewayUsagePlan": {
+      "Type": "AWS::ApiGateway::UsagePlan",
+      "DependsOn": "ApiGatewayDeployment1618432049483",
+      "Properties": {
+        "ApiStages": [
+          {
+            "ApiId": {
+              "Ref": "ApiGatewayRestApi"
+            },
+            "Stage": "dev"
+          }
+        ],
+        "Description": "Usage plan for gas-price-monitor-tool dev stage",
+        "UsagePlanName": "gas-price-monitor-tool-dev"
+      }
+    },
+    "ApiGatewayUsagePlanKey1": {
+      "Type": "AWS::ApiGateway::UsagePlanKey",
+      "Properties": {
+        "KeyId": {
+          "Ref": "ApiGatewayApiKey1"
+        },
+        "KeyType": "API_KEY",
+        "UsagePlanId": {
+          "Ref": "ApiGatewayUsagePlan"
+        }
+      }
+    },
+    "APILambdaPermissionApiGateway": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "APILambdaFunction",
+            "Arn"
+          ]
+        },
+        "Action": "lambda:InvokeFunction",
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": {
+          "Fn::Join": [
+            "",
+            [
+              "arn:",
+              {
+                "Ref": "AWS::Partition"
+              },
+              ":execute-api:",
+              {
+                "Ref": "AWS::Region"
+              },
+              ":",
+              {
+                "Ref": "AWS::AccountId"
+              },
+              ":",
+              {
+                "Ref": "ApiGatewayRestApi"
+              },
+              "/*/*"
+            ]
+          ]
+        }
+      }
+    },
     "PriceBucket": {
       "Type": "AWS::S3::Bucket",
       "Properties": {
@@ -265,7 +481,36 @@
     "MonitorToolLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "MonitorToolLambdaVersionBqHwtd0PSPUFJHmu8o9vMQyyU71D4p4hYKSviLtgxMU"
+        "Ref": "MonitorToolLambdaVersionRtYzIhcQ0f7KlsPSmH7BSx4ZDVup6kbiFsuEqorZ0"
+      }
+    },
+    "APILambdaFunctionQualifiedArn": {
+      "Description": "Current Lambda function version",
+      "Value": {
+        "Ref": "APILambdaVersiona0aHFACzUKpIW5bNMkfMdJ0w8xvRtjzkcF5PCO30iM"
+      }
+    },
+    "ServiceEndpoint": {
+      "Description": "URL of the service endpoint",
+      "Value": {
+        "Fn::Join": [
+          "",
+          [
+            "https://",
+            {
+              "Ref": "ApiGatewayRestApi"
+            },
+            ".execute-api.",
+            {
+              "Ref": "AWS::Region"
+            },
+            ".",
+            {
+              "Ref": "AWS::URLSuffix"
+            },
+            "/dev"
+          ]
+        ]
       }
     }
   }

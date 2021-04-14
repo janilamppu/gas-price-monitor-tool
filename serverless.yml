@@ -1,17 +1,22 @@
 service: gas-price-monitor-tool
 frameworkVersion: '2'
-
 custom:
   gasPriceBucketName: gas-price-bucket
   gasPriceDataFile: priceData
   gasDataUrl: https://www.gasum.com/yksityisille/tankkaa-kaasua/tankkaushinnat/
+  emailSender: jani.lamppu@gmail.com
+  emailReceiver: jani.lamppu@gmail.com
 provider:
   name: aws
   runtime: nodejs14.x
+  apiGateway:
+    shouldStartNameWithService: true
   lambdaHashingVersion: 20201221
   logRetentionInDays: 14
   stage: dev
   region: us-east-1
+  apiKeys:
+    - key
   iamRoleStatements:
     - Effect: 'Allow'
       Action:
@@ -26,12 +31,21 @@ provider:
     gasPriceBucket: ${self:custom.gasPriceBucketName}
     gasPriceDataFile: ${self:custom.gasPriceDataFile}
     gasDataUrl: ${self:custom.gasDataUrl}
+    emailSender: ${self:custom.emailSender}
+    emailReceiver: ${self:custom.emailReceiver}
 
 functions:
   MonitorTool:
-    handler: index.handler
+    handler: src/poller.handler
     events:
       - schedule: rate(6 hours)
+  API:
+    handler: src/api.handler
+    events:
+      - http:
+          path: get-prices
+          method: get
+          private: true
 
 resources:
   Resources:
