@@ -46,6 +46,7 @@ functions:
           path: get-prices
           method: get
           private: true
+          cors: true
 
 resources:
   Resources:
