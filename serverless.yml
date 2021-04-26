@@ -1,11 +1,9 @@
 service: gas-price-monitor-tool
 frameworkVersion: '2'
+useDotenv: true
 custom:
   gasPriceBucketName: gas-price-bucket
-  gasPriceDataFile: priceData
-  gasDataUrl: https://www.gasum.com/yksityisille/tankkaa-kaasua/tankkaushinnat/
-  emailSender: jani.lamppu@gmail.com
-  emailReceiver: jani.lamppu@gmail.com
+  subscriptionsTableName: gas-subscriptions
 provider:
   name: aws
   runtime: nodejs14.x
@@ -26,13 +24,16 @@ provider:
       Action:
         - 'ses:SendEmail'
       Resource: '*'
+    - Effect: 'Allow'
+      Action: 'dynamodb:*'
+      Resource: '*'
 
   environment:
     gasPriceBucket: ${self:custom.gasPriceBucketName}
-    gasPriceDataFile: ${self:custom.gasPriceDataFile}
-    gasDataUrl: ${self:custom.gasDataUrl}
-    emailSender: ${self:custom.emailSender}
-    emailReceiver: ${self:custom.emailReceiver}
+    subscriptionsTableName: ${self:custom.subscriptionsTableName}
+    gasPriceDataFile: ${env:gasPriceDataFile}
+    gasDataUrl: ${env:gasDataUrl}
+    emailSender: ${env:emailSender}
 
 functions:
   MonitorTool:
@@ -43,8 +44,8 @@ functions:
     handler: src/api.handler
     events:
       - http:
-          path: get-prices
-          method: get
+          path: /{any+}
+          method: ANY
           private: true
           cors: true
 
@@ -55,3 +56,16 @@ resources:
       Properties:
         BucketName: ${self:custom.gasPriceBucketName}
         AccessControl: Private
+    SubscriptionsTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: ${self:custom.subscriptionsTableName}
+        AttributeDefinitions:
+          - AttributeName: email
+            AttributeType: S
+        KeySchema:
+          - AttributeName: email
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1

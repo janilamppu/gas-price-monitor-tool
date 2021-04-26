@@ -3,37 +3,72 @@
 const cheerio = require('cheerio');
 const axios = require('axios');
 const {
-  getDataFromS3,
-  writeDataToS3,
+  getPriceDataFromS3,
+  writePriceDataToS3,
   sendEmail,
+  getSubscriptionsFromDynamo,
 } = require('./services/dataService');
 
 module.exports.handler = async event => {
   try {
+    // fetch data
     const data = await getFileOrCreateIfMissing();
     const prices = await fetchAndParsePriceData();
-    // check diff
-    const naturalGasLastKnownPrice = data?.[0]?.naturalgas
-      ? Number(data[0].naturalgas.zone1)
-      : 0.0;
-    const naturalgasPriceNow = Number(prices.naturalgas.zone1);
-    if (naturalgasPriceNow != naturalGasLastKnownPrice) {
-      console.log(
-        `Naturalgas price has changed from ${naturalGasLastKnownPrice} to ${naturalgasPriceNow}`
-      );
-      await sendEmail(naturalGasLastKnownPrice, naturalgasPriceNow);
-    }
+
+    // send change notifications
+    await handleChangeNotifications(data[0], prices);
+
     // construct item
     const item = {
       ...prices,
       date: new Date().toISOString(),
     };
     data.push(item);
+
+    // write entries to S3
     console.log('New entry:', JSON.stringify(item, null, 4));
-    await writeDataToS3(data);
+    await writePriceDataToS3(data);
   } catch (err) {
     console.error(err);
   }
+};
+
+const handleChangeNotifications = async (oldPrices, newPrices) => {
+  // get subscriptions from DynamoDB table
+  const subscriptions = await getSubscriptionsFromDynamo();
+
+  // initialize object for notifications per-receiver
+  const notifications = {};
+
+  // construct keys of gas types
+  const newPriceKeys = Object.keys(newPrices);
+  newPriceKeys.forEach(gasType => {
+    // construct keys of zones
+    const zones = Object.keys(newPrices[gasType]);
+
+    zones.forEach(zone => {
+      // check and compare prices of each zone
+      const newPrice = newPrices[gasType][zone];
+      const oldPrice = oldPrices[gasType][zone];
+      if (newPrice != oldPrice) {
+        // price changed, push notifications to object per-receiver
+        const subs = subscriptions
+          .filter(sub => sub.subscriptions[gasType][zone] === true)
+          .map(sub => sub.email);
+        subs.forEach(sub => {
+          if (!notifications[sub]) notifications[sub] = [];
+          notifications[sub].push({ type: gasType, zone, newPrice, oldPrice });
+        });
+      }
+    });
+  });
+
+  // send notifications
+  const receivers = Object.keys(notifications);
+  receivers.forEach(async receiver => {
+    console.log(receiver, notifications[receiver]);
+    await sendEmail(receiver, notifications[receiver]);
+  });
 };
 
 const fetchAndParsePriceData = async () => {
@@ -72,10 +107,10 @@ const fetchAndParsePriceData = async () => {
 
 const getFileOrCreateIfMissing = async () => {
   try {
-    return await getDataFromS3();
+    return await getPriceDataFromS3();
   } catch (err) {
     if (err.code === 'NoSuchKey') {
-      await writeDataToS3([]);
+      await writePriceDataToS3([]);
       return [];
     } else {
       throw err;
