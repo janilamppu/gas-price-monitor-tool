@@ -11,7 +11,10 @@ module.exports.handler = async (event, context, callback) => {
       const response = generateResponse(200, returnValue);
       callback(null, response);
     } else {
-      const response = generateResponse(404, `No route match for ${route}`);
+      const errorBody = {
+        error: `No route match for ${route}`,
+      };
+      const response = generateResponse(404, errorBody);
       callback(null, response);
     }
   } catch (err) {

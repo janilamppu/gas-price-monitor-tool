@@ -1,6 +1,6 @@
 // test dependencies
 const AWS = require('aws-sdk-mock');
-const poller = require('../src/poller');
+const poller = require('../src/cron/poller');
 const mockedEnv = require('mocked-env');
 const axios = require('axios');
 const MockAdapter = require('axios-mock-adapter');

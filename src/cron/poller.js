@@ -7,13 +7,15 @@ const {
   writePriceDataToS3,
   sendEmail,
   getSubscriptionsFromDynamo,
-} = require('./services/dataService');
+} = require('../services/dataService');
 
 module.exports.handler = async event => {
   try {
     // fetch data
     const data = await getFileOrCreateIfMissing();
-    const prices = await fetchAndParsePriceData();
+    const prices = await fetchAndParsePriceData().catch(err => {
+      throw new Error(`Price fetching/parsing failed: ${err.message}`);
+    });
 
     // send change notifications
     await handleChangeNotifications(data[0], prices);
@@ -30,7 +32,7 @@ module.exports.handler = async event => {
     await writePriceDataToS3(data);
     return item;
   } catch (err) {
-    console.log('ERROR', err);
+    console.log(err);
   }
 };
 

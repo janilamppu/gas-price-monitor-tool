@@ -37,7 +37,7 @@ provider:
 
 functions:
   MonitorTool:
-    handler: src/poller.handler
+    handler: src/cron/poller.handler
     events:
       - schedule: rate(6 hours)
   API:
