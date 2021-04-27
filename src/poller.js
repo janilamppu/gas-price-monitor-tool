@@ -28,8 +28,9 @@ module.exports.handler = async event => {
     // write entries to S3
     console.log('New entry:', JSON.stringify(item, null, 4));
     await writePriceDataToS3(data);
+    return item;
   } catch (err) {
-    console.error(err);
+    console.log('ERROR', err);
   }
 };
 
@@ -66,7 +67,6 @@ const handleChangeNotifications = async (oldPrices, newPrices) => {
   // send notifications
   const receivers = Object.keys(notifications);
   receivers.forEach(async receiver => {
-    console.log(receiver, notifications[receiver]);
     await sendEmail(receiver, notifications[receiver]);
   });
 };
@@ -78,7 +78,7 @@ const fetchAndParsePriceData = async () => {
   // load fetched DOM into cheerio for parsing
   const $ = cheerio.load(req.data);
 
-  // parse out gas price
+  // parse out gas price (TODO: refactor & clean up, a bit dirty solution)
   const naturalGasPrices = [];
   const biogasPrices = [];
   $('.region > .price.naturalgas').each((a, elem) => {

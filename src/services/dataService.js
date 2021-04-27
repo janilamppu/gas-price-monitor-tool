@@ -1,10 +1,9 @@
 'use strict';
 const AWS = require('aws-sdk');
-const s3 = new AWS.S3();
-const ses = new AWS.SES();
 
 const getPriceDataFromS3 = async () => {
   try {
+    const s3 = new AWS.S3({ region: process.env.AWS_REGION });
     const params = {
       Bucket: process.env.gasPriceBucket,
       Key: process.env.gasPriceDataFile,
@@ -22,6 +21,7 @@ const getPriceDataFromS3 = async () => {
 };
 
 const writePriceDataToS3 = async body => {
+  const s3 = new AWS.S3({ region: process.env.AWS_REGION });
   const params = {
     Bucket: process.env.gasPriceBucket,
     Key: process.env.gasPriceDataFile,
@@ -31,18 +31,19 @@ const writePriceDataToS3 = async body => {
 };
 
 const sendEmail = async (receiver, changes) => {
+  const ses = new AWS.SES({ region: process.env.AWS_REGION });
+  console.log('Sending email', receiver, changes);
   const gasTypes = {
     biogas: 'Biokaasu',
     naturalgas: 'Maakaasu',
   };
   const messages = changes
     .map(change => {
-      return `${gasTypes[change.type]} (${change.zone.replace(
-        'zone',
-        'alue '
-      )}): vanha hinta: ${change.oldPrice.toFixed(
-        2
-      )}, uusi hinta: ${change.newPrice.toFixed(2)}`;
+      const oldPrice = Number(change.oldPrice).toFixed(2);
+      const newPrice = Number(change.newPrice).toFixed(2);
+      const zone = change.zone.replace('zone', 'alue ');
+      const gasType = gasTypes[change.type];
+      return `${gasType} (${zone}): vanha hinta: ${oldPrice}, uusi hinta: ${newPrice}`;
     })
     .join('\r\n');
   const params = {
@@ -67,7 +68,9 @@ const sendEmail = async (receiver, changes) => {
 };
 
 const writeSubscriptionToDynamo = async (email, subscriptions) => {
-  const docClient = new AWS.DynamoDB.DocumentClient();
+  const docClient = new AWS.DynamoDB.DocumentClient({
+    region: process.env.AWS_REGION,
+  });
   const item = {
     email,
     subscriptions,
@@ -80,7 +83,9 @@ const writeSubscriptionToDynamo = async (email, subscriptions) => {
 };
 
 const getSubscriptionsFromDynamo = async () => {
-  const docClient = new AWS.DynamoDB.DocumentClient();
+  const docClient = new AWS.DynamoDB.DocumentClient({
+    region: process.env.AWS_REGION,
+  });
   const params = {
     TableName: process.env.subscriptionsTableName,
   };

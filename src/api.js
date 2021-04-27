@@ -3,7 +3,6 @@ const router = require('./router');
 
 module.exports.handler = async (event, context, callback) => {
   try {
-    console.log(event);
     const route = `${event.httpMethod} ${event.path}`;
     const handlerFunction = router[route];
     if (handlerFunction) {

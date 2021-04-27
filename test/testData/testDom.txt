@@ -1,0 +1,2325 @@
+<!DOCTYPE html>
+
+<html lang="fi" ng-app="gasumApp">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maakaasun ja biokaasun hinta tankkausasemilla | Gasum</title>
+
+    <link href="https://www.gasum.com/yksityisille/tankkaa-kaasua/tankkaushinnat/" rel="canonical" />
+        <link rel="alternate" href="https://www.gasum.com/en/For-private-customers/Fill-up-on-gas/road-fuel-gas-prices/" hreflang="x-default" />
+        <link rel="alternate" href="https://www.gasum.com/en/For-private-customers/Fill-up-on-gas/road-fuel-gas-prices/" hreflang="en" />
+        <link rel="alternate" href="https://www.gasum.com/yksityisille/tankkaa-kaasua/tankkaushinnat/" hreflang="fi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta prefix="og: http://ogp.me/ns#" name="description" content="Tankkausasemillamme voit tankata liikenteen edullisinta polttoainetta maakaasua tai uusiutuvaa biokaasua. Katso ajantasaiset hinnat sivuiltamme!">
+    
+    <meta prefix="og: http://ogp.me/ns#" property="og:title" content="Maakaasun ja biokaasun hinta tankkausasemilla | Gasum" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:site_name" content="Gasum" />
+
+    <meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://www.gasum.fi/yksityisille/tankkaa-kaasua/tankkaushinnat/" />
+        <meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://www.gasum.com/globalassets/all-images/1920x975px-teaser-block/people/kamppis_poika_a_1920x975.jpg" />
+        <meta name="twitter:image" content="https://www.gasum.com/globalassets/all-images/1920x975px-teaser-block/people/kamppis_poika_a_1920x975.jpg">
+
+    <meta prefix="og: http://ogp.me/ns#" property="og:type" content="article" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:description" content="Tankkausasemillamme voit tankata liikenteen edullisinta polttoainetta maakaasua tai uusiutuvaa biokaasua. Katso ajantasaiset hinnat sivuiltamme!" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Maakaasun ja biokaasun hinta tankkausasemilla | Gasum">
+    <meta name="twitter:description" content="Tankkausasemillamme voit tankata liikenteen edullisinta polttoainetta maakaasua tai uusiutuvaa biokaasua. Katso ajantasaiset hinnat sivuiltamme!">
+
+
+    
+    <!-- CookiePro Cookies Consent Notice start for gasum.com -->
+<script type="text/javascript" src="https://cookie-cdn.cookiepro.com/consent/6ce4ad38-318b-4694-80a9-e15250edd98c/OtAutoBlock.js" ></script>
+<script src="https://cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="6ce4ad38-318b-4694-80a9-e15250edd98c" ></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- CookiePro Cookies Consent Notice end for gasum.com -->
+
+    <!-- Google Tag Manager for Gasum-->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W44DL2');
+    </script>
+    <!-- End Google Tag Manager -->
+
+	 
+    
+<link rel='stylesheet' type='text/css' data-f-resource='EPiServerForms.css' href='/WebResource.axd?d=s-f6ie6T4Qaxga0Un_qm80T3jhKuv6-SP90YNYwutePvzzgVQj25dS4uUC1nthxXHhkBWqokhRLlrb2v8Bkf9pylquEtuJHo-jbwflk4t_GNJ9PynI1k7ZhecWag-Gp5fikbyfh_FOrFvYjAcwih92OkNIBVNyHAH46kvHEi7D01&t=637182158680000000' />
+
+<script type="text/javascript" src="/WebResource.axd?d=06BwN-V4cbMsRvf09OiYrrkQJzYVNh0LFZ_XUgwbymOCuyL1L9kDbsGso1wYwMF9J38qboqh974KNeKeFZ4L6pGl2RE9pros8lkFaVwpRrm4wzH6Y6nCgw6s2BJLUHJBEkwQBT8a6eHehGDoza8YiUNmxFwp2I3Kp60nCzUytBWyhZParVYwVT0F7wYZx4Nz0&t=637102626160000000"></script>
+<script type="text/javascript">
+var epi = epi||{}; epi.EPiServer = epi.EPiServer||{}; epi.EPiServer.Forms = epi.EPiServer.Forms||{};
+                    epi.EPiServer.Forms.InjectFormOwnJQuery = true;epi.EPiServer.Forms.OriginalJQuery = typeof jQuery !== 'undefined' ? jQuery : undefined;
+</script>
+<script type="text/javascript" src="/WebResource.axd?d=rQapnFTl_pgMjn3yGS-nPpNnWPn2U-87ciKi5kVPJGbW2vRQSoUpol110lIPwOE093SZY6vd3tLGbSlPVfMsjQmxKzorePLMvBTAcga7KpRu2f2U9kOPjZGgE0rXBQBlzwBkj-t_7IO8EUaSfF21DkGGsZUsMnw8Qk3anjOTmeQ1&t=637182158680000000"></script>
+<script type="text/javascript">
+/*
+This EPiServerForms_prerequisite.js TEMPLATE will be compiled with serverside values and injected into ViewMode page
+We reuse the existed global var epi from EPiServer CMS, if any. It will init/grab the epi object, and init epi.EPiServer.Forms object
+*/
+
+// (by default) Forms's jQuery will be injected right before this file. From now on, we refer Forms own jQuery as $$epiforms.
+// after this code, the object $ and jQuery will revert back to its original meaning in original library (Alloy jQuery or other lib).
+
+// Our clients' sites may include their own Jquery version (e.g. a higher version for some special functionalities), which leads to unexpected conflicts with ours.
+// To avoid this, we use jQuery.noConflict()  to set up $$epiforms as an allias for our jquery and then, revert Jquery allias to clients' by using
+// epi.EPiServer.Forms.OriginalJQuery whose value is set up as Jquery at the beginning in FormBlockController.
+// This also allows us to extend our own Jquery's functionalities without causing further conflicts.
+
+var $$epiforms = epi.EPiServer.Forms.InjectFormOwnJQuery ? jQuery.noConflict() : jQuery;
+if (epi.EPiServer.Forms.OriginalJQuery) {
+    jQuery = epi.EPiServer.Forms.OriginalJQuery;
+    delete epi.EPiServer.Forms.OriginalJQuery;
+}
+(function () {
+    var externalScript = [],
+        externalCss = [];
+
+    if (epi.EPiServer.Forms.ExternalScriptSources) {
+        externalScript = epi.EPiServer.Forms.ExternalScriptSources.concat(externalScript);
+        // Remove duplicate items
+        externalScript = externalScript.filter(function (value, index, self) {
+            return self.indexOf(value) === index;
+        });
+    }
+    if (epi.EPiServer.Forms.ExternalCssSources) {
+        externalCss = epi.EPiServer.Forms.ExternalCssSources.concat(externalCss);
+        // Remove duplicate items
+        externalCss = externalCss.filter(function (value, index, self) {
+            return self.indexOf(value) === index;
+        });
+    }
+
+    $$epiforms.extend(true, epi.EPiServer, {
+        CurrentPageLink: "470",
+        CurrentPageLanguage: "fi",
+        CurrentFormLanguage: "fi",
+        Forms: {
+            Utils: {}, Data: {}, Extension: {}, Validation: {}, Navigation: {}, Dependency: {},
+            $: $$epiforms,  // save our own link to our own jQuery
+            ThrottleTimeout: 500,  // miliseconds
+            ExternalScriptSources: externalScript,
+            ExternalCssSources: externalCss,
+            UploadExtensionBlackList: "asp,aspx,asa,ashx,asmx,bat,chm,class,cmd,com,config,dll,exe,hta,htr,htw,jse,json,lnk,mda,mdb,msc,msh,pif,printer,ps1,ps2,reg,rem,scf,scr,sct,shtm,shtml,soap,stm,svc,url,vb,vbe,vbs,vsix,ws,wsc,wsf,wsh,xamlx,htm,html,js,jar",
+            Messages: {"viewMode":{"malformStepConfiguration":"Väärin muodostettu lomakkeen vaiheen määritys. Sivuihin on liitetty joitain vaiheita, mutta joitain vaiheita ei ole yhdistetty tai ne on yhdistetty sisältöön, jonka URL ei ole julkinen.","commonValidationFail":"Tämän elementin arvo ei ole kelvollinen."},"fileUpload":{"overFileSize":"Lähetettävän tiedoston koon on oltava alle {0} Mt.","invalidFileType":"Lähetystiedoston muoto ei ole sallittu tai tuettu.","postedFile":"(Edellinen lähetetty tiedosto(t): {0})"}},
+            LocalizedResources: {"conditioncombination":{"all":"Kaikki","any":"Mikä tahansa"},"satisfiedaction":{"hide":"Piilotettu","show":"Näkyvissä"},"contenttypescomponent":{"title":"Lomake-elementit","description":"Näytä kaikki Episerver Forms -sisältötyypit"},"formscomponent":{"title":"Lomakkeet","description":"Hallitse verkkosivuston lomakkeita","command":{"create":{"label":"Uusi lomake"},"viewdata":{"label":"Lomakelähetykset"}},"messages":{"nocontent":"Tässä kansiossa ei ole lomakkeita."}},"formdataview":{"name":"Lomakelähetykset","description":"Näytä lomakelähetykset","heading":"Lomakelähetykset","begindate":"Alkamispäivä","enddate":"Päättymispäivä","search":"Haku","nodata":"Tietoja ei ole","export":"Vie muodossa...","exportasxml":"XML","exportasxmldesc":"Vie lomaketiedot XML-muodossa","exportascsv":"CSV","exportascsvdesc":"Vie lomaketiedot CSV-muodossa","exportasjson":"JSON","exportasjsondesc":"Vie lomaketiedot JSON-muodossa","finalizedonly":"Vain viimeistellyt","deleteselecteditems":"Poista","exportasxlsx":"XLSX","exportasxlsxdesc":"Vie lomaketiedot XLSX-muodossa","selectalltooltip":"Valitse kaikki","deselectalltooltip":"Poista kaikkien valinta","deleteconfirmation":"Haluatko poistaa valitut kohteet? Tätä toimenpidettä ei voi peruuttaa.","nopostid":"Poistettavaa lähetystunnusta ei ole.","couldnotgetassociateform":"Liittyvää lomaketta ei saatu haettua.","deletesuccessful":"Lähetystietojen poisto onnistui.","accessdenied":"Sinulla ei ole oikeutta nähdä näitä tietoja.","submittime":"Aika","submituser":"Lähettänyt käyttäjä","hostedpage":"Lähetetty sivulta","finalizedsubmission":"Viimeistelty","selectioninfo":"Kaikki <b>${0}</b> tietuetta on valittu. ","extraselectionlink":"Valitse kaikki <b>${0}</b> tietuetta","clearselectionlink":"Tyhjennä valinta","filterdata":"Suodata","searchallcolumns":"Kaikki sarakkeet","exportasdecryptedcsv":"Salattu CSV","exportasdecryptedcsvdesc":"Salaa ja vie lomaketiedot CSV-muodossa"},"formscontentarea":{"emptyactions":{"actions":{"createnewformselement":"selaa"},"template":"Voit vetää lomake-elementtejä tähän tai {createnewformselement}.","templatewithoutcreate":"Voit vetää sisältöä tähän."}},"fieldselector":{"title":"Valitse riippuvuuskenttä"},"submissionactors":{"episerver.forms.implementation.actors.callwebhookaftersubmissionactor":{"displayname":"Käynnistä Webhook-elementti lomakkeen lähetyksen jälkeen"},"episerver.forms.implementation.actors.sendemailaftersubmissionactor":{"displayname":"Lähetä sähköposti lomakkeen lähettämisen jälkeen"}},"validators":{"episerver.forms.implementation.validation.requiredvalidator":{"displayname":"Pakollinen","message":"Tämä kenttä on pakollinen."},"episerver.forms.implementation.validation.regularexpressionvalidator":{"displayname":"Säännöllinen lauseke","message":"Tämän kentän on oltava ”{0}”-muodossa."},"episerver.forms.implementation.validation.captchavalidator":{"displayname":"Captcha","message":"Kirjoita kuvassa näkyvät merkit."},"episerver.forms.implementation.validation.allowedextensionsvalidator":{"displayname":"Sallitut tarkenteet","message":"Lähetystiedoston muoto ei ole sallittu tai tuettu.","allowedextensionsmessage":"Lähetystiedoston muoto ei ole sallittu tai tuettu. Tiedostomuodon on oltava seuraava: {0}."},"episerver.forms.implementation.validation.maxfilesizevalidator":{"displayname":"Tiedoston enimmäiskoko","message":"Lähetettävän tiedoston koon on oltava alle {0} Mt."},"episerver.forms.implementation.validation.emailvalidator":{"displayname":"Sähköpostiosoite","message":"Anna kelvollinen sähköpostiosoite."},"episerver.forms.implementation.validation.urlvalidator":{"displayname":"URL","message":"Anna kelvollinen URL-osoite."},"episerver.forms.implementation.validation.dateddmmyyyyvalidator":{"displayname":"Päivämäärä (PV/KK/VVVV)","message":"Anna päivämäärä PV/KK/VVVV-muodossa."},"episerver.forms.implementation.validation.datemmddyyyyvalidator":{"displayname":"Päivämäärä (KK/PV/VVVV)","message":"Anna päivämäärä KK/PV/VVVV-muodossa."},"episerver.forms.implementation.validation.dateyyyymmddvalidator":{"displayname":"Päivämäärä (VVVV-KK-PV)","message":"Anna päivämäärä VVVV-KK-PV-muodossa."},"episerver.forms.implementation.validation.numericvalidator":{"displayname":"Numero","message":"Anna kelvollinen numero."},"episerver.forms.implementation.validation.integervalidator":{"displayname":"Kokonaisluku","message":"Anna kelvollinen kokonaisluku."},"episerver.forms.implementation.validation.positiveintegervalidator":{"displayname":"Positiivinen kokonaisluku","message":"Anna kelvollinen positiivinen kokonaisluku."},"elementselfvalidator":{"unexpectedvalueisnotaccepted":"Odottamatonta arvoa ei hyväksytä."},"custommessage":{"resetbuttonlabel":"Palauta oletukseen","errormessagelabel":"Virhesanoma "},"fileuploadelementselfvalidator":{"multiplefilenotallowed":"Not allowed to upload multiple files."}},"visitordatasources":{"episerver.forms.implementation.visitordata.ipaddressvisitordatasource":{"displayname":"IP-osoite"},"episerver.forms.implementation.visitordata.geovisitordatasource":{"displayname":"Maantieteellinen alue","properties":{"city":"Kaupunki","country_code":"Maatunnus","country_name":"Maan nimi","ip":"IP","latitude":"Leveysaste","longitude":"Pituusaste","region_code":"Aluekoodi","region_name":"Alueen nimi","time_zone":"Aikavyöhyke","zip_code":"Postinumero"}},"episerver.forms.implementation.visitordata.profilevisitordatasource":{"displayname":"Profiili","properties":{"address":"Osoite","zipcode":"Postinumero","locality":"Paikkakunta","email":"Sähköposti","firstname":"Etunimi","lastname":"Sukunimi","language":"Kieli","country":"Maa","company":"Yritys","title":"Titteli"}},"episerver.forms.implementation.visitordata.useragentvisitordatasource":{"displayname":"Web-lukuohjelma","properties":{"ismobiledevice":"On mobiili","useragent":"Web-lukuohjelma"}},"episerver.forms.implementation.visitordata.visitorgroupvisitordatasource":{"displayname":"Vierailijaryhmät","properties":{"id":"Tunnus","name":"Nimi"}},"youmustselectvalueforhiddenvisitor":"Sinun on valittava arvo valitsemallesi kävijätietojen tyypille."},"messages":{"fileupload":{"overfilesize":"Lähetettävän tiedoston koon on oltava alle {0} Mt.","invalidfiletype":"Lähetystiedoston muoto ei ole sallittu tai tuettu.","postedfile":"(Edellinen lähetetty tiedosto(t): {0})"},"formsubmission":{"outdatedforminit":"Nykyinen lomakkeen katseluistunto on vanhentunut. Jatka päivittämällä sivu.","requirelogin":"Sinun on kirjauduttava sisään, jotta voit lähettää lomakkeen. Jos olet kirjautunut sisään, mutta et vieläkään voi julkaista, varmista, että Älä seuraa -asetus on pois käytöstä selaimen asetuksissa.","denymultisubmit":"Olet jo lähettänyt tämän lomakkeen.","submitsuccess":"Lähetys onnistui.","validationfailformat":"Tarkistus epäonnistui ”{0}”-kentälle: {1}","thereisnoformguid":"Tietojen lähetys EPÄONNISTUI: Lomakkeen GUID puuttuu.","couldnotgetform":"Tietojen lähetys EPÄONNISTUI: lomaketta, jonka tunnus on {0}, ei löydy.","submitcancelled":"TEKNISET TIEDOT: Lähetysprosessi on peruutettu. Syy: ","formisrestricted":"Lomaketta ei voitu lähettää. Oikeutesi eivät riitä.","formexpired":"Lomaketta ei voitu lähettää. Lomake on vanhentunut.","formdeleted":"Lomaketta ei voitu lähettää. Lomake on poistettu.","submitnotsuccess":"Lähettäminen epäonnistui.","sessionoff":"Et voi lähettää tätä lomaketta, koska se ei salli tietojen tallentamista ja istunnon tila on pois käytöstä (OFF)."}},"dependcondition":{"notapplicable":"Ei sovellu","matchregularexpression":"Täsmäytä säännöllisen lausekkeen kanssa","equals":"On yhtä kuin","notequals":"Ei ole yhtä kuin","contains":"Sisältää","notcontains":"Ei sisällä"},"imagechoiceitems":{"emptyactions":{"actions":{"createnewitem":"Luo linkki kuvaan"},"template":"Vedä kuvan sisältö tähän.<br/>Vaihtoehtoisesti: {createnewitem}."},"menutooltip":"Näytä valikko"},"editview":{"elementdependant":"Tämä kenttä riippuu muista kentistä","retentionperiod":{"partial":"Osittainen","finalized":"Viimeistelty","default":"Oletus","keepforsomedays":"{0} päivää","customization":"Mukautetusti (päivää):","keepforever":"Ikuisesti","validation":{"errormessage":{"long":"{0} lähetys -säilytysaikakentässä on oltava kokonaisluku {1}–{2}","short":"Syötteen on oltava kokonaisluku {0}–{1}"}},"revision":{"warningmessage":"Säilytyskäytännön muutoksesi vaikuttaa ainakin {0} lähetykseen"}},"notconfigured":"Ei määritetty vielä","insertplaceholder":"Lisää paikkamerkki","selectanitem":"Valitse kohde","externalsystems":"Ulkoisen järjestelmän kenttien vastaavuusmääritys","connecteddatasource":"Yhdistä tietolähteeseen","createemailtemplate":"Luo sähköpostimallipohja","editemailtemplate":"Muokkaa sähköpostimallipohjaa","addwebhook":"Lisää Webhook","editwebhook":"Muokkaa Webhook-elementtiä","selectpage":"Valitse sivu","usemanualinput":"Käytä manuaalista syötettä","errorconditionalstepcannotcontainrequiredelement":"Tämä lomakkeen vaihe ei saa olla riippuvainen muista elementeistä, koska se sisältää pakollisen elementin [{0}].","cannotbuildformmodel":"Lomaketta ei voi muodostaa. Et voi käyttää lomakkeen säilölohkoa ominaisuutena. Voit hahmontaa lomakkeen vain sisältöalueella.","resetconnecteddatasource":"Reset"},"viewmode":{"stepnavigation":{"previous":"Edellinen vaihe","next":"Seuraava vaihe","page":"Vaihe"},"untitled":"Nimetön","selection":{"selectanoption":"-- Valitse vaihtoehto --","selectoptions":"-- Valitse vaihtoehdot --"},"reset":"Nollaa lomake","submit":"Lähetä","refreshcaptcha":"Päivitä Captcha","captchalabel":"Sanavarmennus","malformstepconfigruation":"Väärin muodostettu lomakkeen vaiheen määritys. Sivuihin on liitetty joitain vaiheita, mutta joitain vaiheita ei ole yhdistetty tai ne on yhdistetty sisältöön, jonka URL ei ole julkinen.","commonvalidationfail":"Tämän elementin arvo ei ole kelvollinen.","readonlymode":"Kirjoitussuojattu tila. Lähetettyjä tietoja ei tallennettu.","submissionactors":{"savedatatostorage":{"error":"Something went wrong. Please contact the administrator for more information."}}},"contentediting":{"fielddependency":{"condition":{"field":"Kenttä","operator":"Operaattori","value":"Arvo"},"invalidcondition":"Ehto ei ole enää voimassa","conditiondialog":{"title":"Ehdon tiedot"}},"optionitem":{"caption":"Valinta","value":"Arvo","checked":"Oletusarvoisesti valittuna","containsinvalidcharacter":"Pilkku (,) -merkkiä ei sallita."},"emailtemplateactor":{"fromemail":"Lähettäjä","fromemaildescription":"Sähköpostiosoite, josta lähetetään","toemails":"Vastaanottaja","toemailsdescription":"Vastaanottajan sähköpostiosoite tai sähköpostiosoitteen sisältävän lomakekentän nimi (jos kyseessä on vahvistussähköposti).","subject":"Aihe","subjectdescription":"Sähköpostin aiherivi. Voit lisätä arvoja lomakkeesta käyttämällä #FIELDNAME#-komentoa","body":"Viesti","bodydescription":"Sähköpostin tekstiosa. Voit lisätä arvoja lomakkeesta käyttämällä #FIELDNAME#-komentoa tai näyttää lomakekenttien yhteenvetoluettelon käyttämällä #SUMMARY-komentoa.","fromemailplaceholder":"joku@esimerkki.com","toemailsplaceholder":"osoite@esimerkki.com,...","subjectplaceholder":"Anna sähköpostin aihe"},"webhookactor":{"url":"Webhook-elementin URL-osoite","urldescription":"Webhook-elementin URL-osoite, johon lataustiedot lähetetään (http- tai https-protokolla).","jsonformat":"LÄHETÄ tiedot JSON-muodossa."},"validation":{"circulardependency":"Kehäriippuvuuden määritystä ei sallita","greaterthanequaltoerrorformat":"{0}: oltava >= kohteen {1} arvo.","lessthanequaltoerrorformat":"{0}: oltava <= kohteen {1} arvo.","inrangeerrorformat":"”{0}” ei ole kelvollinen arvo kohteelle {1}. Vain numero sallitaan, ja {1} -arvon on oltava arvojen [{2} ja {3}] välillä.","stepinrangeerrorformat":"{0}: oltava >= 1 ja <= arvo {2} - {1}.","positiveinteger":"Vain positiivinen numero sallitaan."}},"admin":{"databasejob":{"expiredformsubmissionremovejob":{"description":"\n                                Tämä työ poistaa kaikki vanhentuneet lomakkeen lähetystiedot. Lomakkeiden lähetystietojen vanheneminen on määritetty lomakkeen ominaisuuksissa, säilytyskäytännössä. Lisäksi poistetaan kaikkien sellaisten lomakkeiden lähetys, jotka eivät ole enää käytettävissä.\n                            ","displayname":"Lomakelähetysten siivous","returnmessage":"{0} vanhentunutta lähetystä on poistettu. {1} poistetun lomakkeen lähetystä on poistettu."},"updatemissingvalueofretentionpolicyjob":{"description":"This job will update forms with missing retention values.","displayname":"Form Update Missing Retention Values.","returnmessage":"Updated forms with missing retention values."}}}}
+        }
+    });
+})();
+
+</script>
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-24248317-1', 'auto');if(window.epiGat)epiGat({"downloads":true,"extensions":"7z|aac|arc|arj|asf|avi|bin|csv|docx?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|png|pptx?|qtm?|ra(m|r)?|tar|tgz|txt|wav|wma|wmv|wpd|xlsx?|xml|z|zip","external":true,"mailto":true,"trackForms":true,"trackVisitorGroups":true,"trackLogins":true,"trackingOption":"Universal"});ga('send', 'pageview');
+</script>
+
+	
+    <script data-ot-ignore src="/Content/js/LoadJS/loadjs.min.js"></script>
+    <script data-ot-ignore src="/Content/js/jQuery/jquery-1.12.0.min.js"></script>
+    <script data-ot-ignore src="/Content/dist/scripts.js"></script>
+
+    <link rel="stylesheet" href="/Content/dist/site.css" type="text/css" />
+
+    <!-- Favicons -->
+    <!-- For IE 9 and below. -->
+    <!--[if IE]><link rel="shortcut icon" href="/Content/2016/images/favicons/favicon.ico"><![endif]-->
+    <link rel="icon" type="image/png" href="/Content/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Content/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Content/images/favicons/favicon-16x16.png" sizes="16x16">
+
+   
+
+    <meta name="google-site-verification" content="9lCbY36MRV2RseYosUvJx4f925FFQ7JGAKThc6PeuwQ" />
+    <meta name="google-site-verification" content="FFZx_KYlYLLWBwjSsx7hLYzq-sWo0OU5bxfU2JEcJZ4" />
+
+
+    <script type='text/javascript'>
+        var appInsights=window.appInsights||function(config)
+        {
+            function r(config){ t[config] = function(){ var i = arguments; t.queue.push(function(){ t[config].apply(t, i)})} }
+            var t = { config:config},u=document,e=window,o='script',s=u.createElement(o),i,f;for(s.src=config.url||'//az416426.vo.msecnd.net/scripts/a/ai.0.js',u.getElementsByTagName(o)[0].parentNode.appendChild(s),t.cookie=u.cookie,t.queue=[],i=['Event','Exception','Metric','PageView','Trace','Ajax'];i.length;)r('track'+i.pop());return r('setAuthenticatedUserContext'),r('clearAuthenticatedUserContext'),config.disableExceptionTracking||(i='onerror',r('_'+i),f=e[i],e[i]=function(config, r, u, e, o) { var s = f && f(config, r, u, e, o); return s !== !0 && t['_' + i](config, r, u, e, o),s}),t
+        }({
+            instrumentationKey: "e3edfbc5-44ec-417b-98d4-b533881cd164"
+        });
+
+        window.appInsights=appInsights;
+        appInsights.trackPageView();
+    </script>
+
+    <!-- Adform Tracking Code BEGIN -->
+    <script async type="text/javascript" src="https://track.adform.net/serving/scripts/trackpoint/"></script>
+    <script async type="text/javascript">
+        window.addEventListener('DOMContentLoaded', function () {
+            adf.track(258942);
+        });
+    </script>
+
+    
+
+
+
+
+</head>
+<body>
+    <!-- Google Tag Manager for Gasum -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-W44DL2"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <noscript>
+        <p style="margin:0;padding:0;border:0;">
+            <img src="https://track.adform.net/Serving/TrackPoint/?pm=258942" width="1" height="1" alt="" />
+        </p>
+    </noscript>
+    <!-- Adform Tracking Code END -->
+
+    
+    
+
+
+
+    
+
+
+
+
+<div class="navigationHolder page-content-width-limit">
+    <div class="container topNavBar navIsClosed">
+        <div class="leftnavlinks">
+<a href="/Yrityksille/">Yrityksille</a>                            <a class="active" href="/yksityisille/">Yksityisille</a>
+<a href="/kaasusta/">Kaasusta</a><a href="/gasum-yrityksena/">Gasum</a><a href="/ajassa/">Ajassa</a>        </div>
+        <div class="rightnavlinks">
+                    <a href="/gasum-yrityksena/organisaatio/yhteystiedot/asiakaspalvelu/">
+                        Asiakaspalvelu
+                    </a>
+        </div>
+        <div class="language-selector">
+                <a href="#" id="language-menu-link"><img data-ot-ignore class="optanon-category-C0001" src="/Content/images/icons/baseline_language_black_18dp.png" alt="Select language" /></a>
+        </div>
+    </div>
+
+        <div id="language-menu" class="bg-6491f5" style="display: none;">
+            <ul>
+                        <li><a href="/no/" class="language-selector-link"><span class="text">Norge</span></a></li>
+                        <li><a href="/yksityisille/tankkaa-kaasua/tankkaushinnat/" class="language-selector-link"><span class="text">Suomi</span></a></li>
+                        <li><a href="/sv/" class="language-selector-link"><span class="text">Sverige</span></a></li>
+                        <li><a href="/en/For-private-customers/Fill-up-on-gas/road-fuel-gas-prices/" class="language-selector-link"><span class="text">Global (en)</span></a></li>
+            </ul>
+        </div>
+
+    <div class="mainNavBar ">
+        <div class="container">
+            <div class="main-nav-logo-col">
+                <a href="/">
+                        <img data-ot-ignore src="/Content/images/icons/logos/Gasum_logo_blue.svg" alt="gasumlogo" class="main-nav-gasum-logo optanon-category-C0001 ">
+                </a>
+            </div>
+
+            
+
+
+<div class="sub-navs">
+                <div class="subNavBar" data-pageid="1949">
+                    <p class="">Valitse kaasuauto</p>
+                </div>
+                <div class="subNavBar" data-pageid="71">
+                    <p class="active">Tankkaa kaasua</p>
+                </div>
+</div>
+
+
+
+
+            <div class="button-container">
+                <div container="nav" class="item nav hide-nav-desktop">
+                    <div class="navicons navicon">
+                    </div>
+                </div>
+                <div container="search" class="item search">
+                    <div class="navicons searchicon">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+        <div class="sub-nav-children" data-parentid="1949">
+                <a class="" href="/yksityisille/valitse-kaasuauto/miksi-kaasuauto/">Miksi kaasuauto?</a>
+                <a class="" href="/yksityisille/valitse-kaasuauto/kaasuauton-hankinta/">Kaasuauton hankinta</a>
+                <a class="" href="/yksityisille/valitse-kaasuauto/kaasuautomallit/">Kaasuautomallit</a>
+                <a class="" href="/yksityisille/valitse-kaasuauto/kokemuksia-kaasuautoilusta/">Kokemuksia kaasuautosta</a>
+                <a class="" href="/yksityisille/valitse-kaasuauto/kysymyksia-kaasuautoilusta/">Kysymyksi&#228; kaasuautoilusta</a>
+                <a class="" href="/yksityisille/valitse-kaasuauto/olisinpa-tiennyt/">Olisinpa tiennyt</a>
+        </div>
+        <div class="sub-nav-children" data-parentid="71">
+                <a class="" href="/yksityisille/tankkaa-kaasua/tankkausasemat/">Kaasutankkausasemat</a>
+                <a class="" href="/yksityisille/tankkaa-kaasua/tulevat-tankkausasemat/">Tulevat tankkausasemat</a>
+                <a class="" href="/yksityisille/tankkaa-kaasua/kaasutankkausasemilla-maksaminen/">GasCard-maksukortti</a>
+                <a class="active" href="/yksityisille/tankkaa-kaasua/tankkaushinnat/">Tankkaushinnat</a>
+                <a class="" href="/yksityisille/tankkaa-kaasua/miksi-biokaasu/">Miksi biokaasu?</a>
+        </div>
+
+
+
+    <div id="nav" class="dropdownmenu">
+        <div class="hmbrg">
+                <div class="leftnavlinks-mobile">
+                        <div class="currentPage">
+                            <p class="topnavdropdown">Suomi</p>
+                            <img data-ot-ignore src="/Content/images/icons/baseline_language_white_18dp.png" class="mobile-earth optanon-category-C0001" alt="Select language" />
+                        </div>
+                    <div class="topnavdropdowncontainer">
+                            <a href="/no/" class="language-selector-link"><p>Norge</p></a>
+                            <a href="/sv/" class="language-selector-link"><p>Sverige</p></a>
+                            <a href="/en/For-private-customers/Fill-up-on-gas/road-fuel-gas-prices/" class="language-selector-link"><p>Global (en)</p></a>
+                    </div>
+                </div>
+            <div class="leftnavlinks-mobile">
+                        <div class="currentPage">
+                            <a href="/yksityisille/"><p class="topnavdropdown">Yksityisille</p></a><i class="fa fa-plus"></i>
+                        </div>
+                <div class="topnavdropdowncontainer">
+                            <a href="/Yrityksille/"><p>Yrityksille</p></a>
+                            <a href="/kaasusta/"><p>Kaasusta</p></a>
+                            <a href="/gasum-yrityksena/"><p>Gasum</p></a>
+                            <a href="/ajassa/"><p>Ajassa</p></a>
+                </div>
+            </div>
+            <div class="childrencontainer-mobile">
+                        <div class="child">
+                            <div class="childname">
+                                    <i class="fa fa-chevron-down"></i>
+                                    <p class="">Valitse kaasuauto</p>
+
+                            </div>
+                            <div class="childitems">
+                                        <p><a class="" href="/yksityisille/valitse-kaasuauto/miksi-kaasuauto/">Miksi kaasuauto?</a></p>
+                                        <p><a class="" href="/yksityisille/valitse-kaasuauto/kaasuauton-hankinta/">Kaasuauton hankinta</a></p>
+                                        <p><a class="" href="/yksityisille/valitse-kaasuauto/kaasuautomallit/">Kaasuautomallit</a></p>
+                                        <p><a class="" href="/yksityisille/valitse-kaasuauto/kokemuksia-kaasuautoilusta/">Kokemuksia kaasuautosta</a></p>
+                                        <p><a class="" href="/yksityisille/valitse-kaasuauto/kysymyksia-kaasuautoilusta/">Kysymyksi&#228; kaasuautoilusta</a></p>
+                                        <p><a class="" href="/yksityisille/valitse-kaasuauto/olisinpa-tiennyt/">Olisinpa tiennyt</a></p>
+
+                            </div>
+                        </div>
+                        <div class="child">
+                            <div class="childname">
+                                    <i class="fa fa-chevron-down"></i>
+                                    <p class="active">Tankkaa kaasua</p>
+
+                            </div>
+                            <div class="childitems">
+                                        <p><a class="" href="/yksityisille/tankkaa-kaasua/tankkausasemat/">Kaasutankkausasemat</a></p>
+                                        <p><a class="" href="/yksityisille/tankkaa-kaasua/tulevat-tankkausasemat/">Tulevat tankkausasemat</a></p>
+                                        <p><a class="" href="/yksityisille/tankkaa-kaasua/kaasutankkausasemilla-maksaminen/">GasCard-maksukortti</a></p>
+                                        <p><a class="active" href="/yksityisille/tankkaa-kaasua/tankkaushinnat/">Tankkaushinnat</a></p>
+                                        <p><a class="" href="/yksityisille/tankkaa-kaasua/miksi-biokaasu/">Miksi biokaasu?</a></p>
+
+                            </div>
+                        </div>
+
+                        <div class="quicklinks">
+<div class="quicklink"><a href="/yksityisille/tankkaa-kaasua/tankkausasemat/" target="_self"><div><img data-ot-ignore class="optanon-category-C0001" src="/globalassets/gasum-global-site/quicklinks/small-margin-icons/white-new/car_front_white_rgb.svg" /><p>Tankkausasemat</p></div></a></div><div class="quicklink"><a href="/gasum-yrityksena/medialle/mediayhteydet/" target="_self"><div><img data-ot-ignore class="optanon-category-C0001" src="/globalassets/gasum-global-site/quicklinks/small-margin-icons/white-new/media_white_rgb.svg" /><p>Medialle</p></div></a></div><div class="quicklink"><a href="/gasum-yrityksena/organisaatio/yhteystiedot/" target="_self"><div><img data-ot-ignore class="optanon-category-C0001" src="/globalassets/gasum-global-site/quicklinks/small-margin-icons/white-new/location_white_rgb.svg" /><p>Yhteystiedot</p></div></a></div><div class="quicklink"><a href="/gasum-yrityksena/organisaatio/yhteystiedot/asiakaspalvelu/" target="_self"><div><img data-ot-ignore class="optanon-category-C0001" src="/globalassets/gasum-global-site/quicklinks/small-margin-icons/white-new/expert_white_rgb.svg" /><p>Asiakaspalvelu</p></div></a></div>                        </div>
+                    <div class="rightnavlinks-mobile">
+
+                                <div class="nav-rightnavlinks-container-mobile">
+                                    <a href="/gasum-yrityksena/organisaatio/yhteystiedot/asiakaspalvelu/">
+                                        Asiakaspalvelu
+                                    </a>
+                                    <i class="fa fa-chevron-right"></i>
+                                </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="search" class="dropdownmenu searchbox" ng-controller="searchController">
+        <div class="container search-container">
+
+                    <form class="searchForm" ng-submit="search('fi', 1)">
+                        <input type="text" ng-model="searchTerm">
+                        <span ng-click="search('fi', 1)"><i class="fa fa-search fa-2x"></i></span>
+                    </form>
+                    <div class="results" ng-if="FoundResults || noresultsFound.length > 0 ||loading">
+
+                        <a data-ng-repeat="item in results" href="{{item.Url}}">
+                            {{item.Name}}
+                            <br />
+                            <p ng-bind-html="item.excerpt"></p>
+                        </a>
+                        <p ng-if="TotalResults == 0 && !loading">
+                            {{noresultsFound}}
+                        </p>
+                        <p ng-if="loading">
+                            <i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>
+                        </p>
+
+                        <div class="gsc-cursor row">
+                            <div class="gsc-cursor-page" ng-repeat="number in totalToArray()" ng-class="{'gsc-cursor-current-page': activePage == number}" ng-click="turnPage(number)"> {{number}}</div>
+                        </div>
+                    </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+    <div id="customer-service" class="dropdownmenu"></div>
+    <div class="hamburgermenuoverlay"></div>
+</div>
+
+    <script> 
+        $(function () {
+            var navBar = $(".mainNavBar");
+            var image = $(".main-nav-gasum-logo");
+            if ($(window).width() <= 768 && $(window).width() >= 550 && !navBar.hasClass("dark-nav") && $(".skangas").length < 1) {
+                navBar.addClass("dark-nav");
+                image.attr("src","/globalassets/all-images/logos/gasum_logo_white.svg");
+            }
+
+        });
+
+    </script>
+
+    <div>
+        
+
+
+<div class="contentpage-wrapper">
+    <div class="contentpage-flex-row">
+        <div class="contentpage-link prev-page contentpage-flex-col-10">
+</div>
+        <div class="page-content contentpage-flex-col-80">
+            <div class="content-width-limit container">
+                
+<div class="content-teaser-block" style="">
+<div><div>
+
+<div class="teaserblock-wrapper hoverable-block-wrapper">
+    <div class="img-wrapper" style="">
+                    <img data-ot-ignore class="optanon-category-C0001" data-scaling="/globalassets/all-images/1920x975px-teaser-block/people/kamppis_poika_a_1920x975.jpg" alt="Content image" />
+                        <div class="text-wrapper text-wrapper-teaser-block ">
+                                    <h1 class="teaserBlockHeader ">
+Edullisia kilometrej&#228; kaasulla                                    </h1>
+
+                            <div class="text-content teaserBlockText ">
+                                
+                            </div>
+
+                        </div>
+
+
+    </div>
+
+
+</div>
+
+
+</div></div></div>
+
+                
+
+                <div class="flex-row main">
+                    
+<div class="flex-col-33 left-content-area">
+
+
+
+<div><div>
+
+<div class="regional-gas-price-wrapper bg-d2dce9 text-2d2d2d">
+
+    <div class="biogass">
+            <h3 class="bold">Biokaasu</h3>
+                    <p class="region-heading">Alue 1</p>
+            <div class="region">
+                <div class="price biogas">0,923 € / l*</div>
+                <div class="price biogas">1,99 € / kg</div>
+            </div>
+            <p class="region-heading">Alue 2</p>
+            <div class="region">
+                <div class="price biogas">0,949 € / l*</div>
+                <div class="price biogas">1,99 € / kg</div>
+            </div>
+    </div>
+    <div class="naturalgas">
+            <h3 class="bold">Maakaasu</h3>
+
+            <p class="region-heading">Alue 1</p>
+            <div class="region">
+                <div class="price naturalgas">0,872 € / l*</div>
+                <div class="price naturalgas">2,99 € / kg</div>
+            </div>
+            <p class="region-heading">Alue 2</p>
+            <div class="region">
+                <div class="price naturalgas">0,910 € / l*</div>
+                <div class="price naturalgas">2,99 € / kg</div>
+            </div>
+    </div>
+            <div class="blockingress-rich">
+            <p>*Vertailulitrahinta</p>
+<p><strong>Alue 1</strong>: Kaikki asemat poisluettuna alue 2</p>
+<p><strong>Alue 2</strong>: Helsinki Hermanni, Helsinki Roihupelto, H&auml;meenlinna Tiiri&ouml;, Kotka Keltakallio, Lohja Muijala, Lohja Tytyri ja Pori Tiilim&auml;ki</p>
+        </div>
+</div>
+</div></div>
+
+
+</div>
+                    <div class="flex-col-66 main-content-area ">
+                        
+
+<div class="mobile-4-level-nav">
+
+</div>
+
+<div class="breadcrumb hidden-mobile">
+
+                    <a href="/yksityisille/"> Yksityisille </a>
+                <span> &mdash; Tankkaa kaasua  </span>
+            <span> &mdash; Tankkaushinnat </span>
+</div>
+				<h1>
+					Maa- ja biokaasun hinnat tankkausasemilla
+				</h1>
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <span class="addthis-above-text">Jaa: </span> 
+                <div class="addthis_inline_share_toolbox"></div>
+<p class="ingress">Gasumin tankkausasemilla kaasuautoilijana voit valita tankattavaksi bio- tai maakaasun. Biokaasu ja maakaasu ovat samaa kemiallista ainetta eli metaania. Voit tankata joka kerta samaa tai vaihtaa huoletta kaasusta toiseen. Laske sivun alalaidassa, kuinka paljon s&auml;&auml;st&auml;t vaihtamalla uusiutuvaan biokaasuun.</p>
+<p class="blockIngress-b">Maa- ja biokaasulla on oma myyntihintansa, joka on asemien hintapylv&auml;iss&auml; ilmoitettu kilohintana. Esit&auml;mme voimassa olevat vertailulitrahinnat ainoastaan verkkosivuillamme.&nbsp;<a href="/yksityisille/tankkaa-kaasua/tankkausasemat/">T&auml;&auml;lt&auml; l&ouml;yd&auml;t Suomen kaasutankkausasemat.</a></p>
+<h2 class="blockIngress-b">3 syyt&auml; vaihtaa kaasuautoon</h2>
+<p class="blockIngress-b">Oletko miettinyt, miten voisit autoilla taloudellisemmin? Vastaus on kaasuauto. Sen edullisuus ja v&auml;h&auml;p&auml;&auml;st&ouml;isyys tekev&auml;t siit&auml; fiksun valinnan.</p>
+<h3 class="">1. Kaasu on edullinen polttoaine</h3>
+<p class="blockIngress-b">Kaasuautot k&auml;ytt&auml;v&auml;t polttoaineena bio- ja maakaasua. Kumpaa tahansa tankkaatkaan, kaasulla ajat edullisemmin kuin muilla perinteisill&auml; polttoaineilla.</p>
+<h3 class="">2. Biokaasu on 100% uusiutuva valinta</h3>
+<p class="blockIngress-b"><a href="/yksityisille/tankkaa-kaasua/miksi-biokaasu/">Biokaasua</a> tuotetaan kiertotalouden periaatteiden mukaisesti muun muassa kotien, kauppojen ja teollisuuden biohajoavista j&auml;tteist&auml; sek&auml; yhteiskunnan j&auml;tevesist&auml;.</p>
+<h3 class="">3. Suosituimmat mallit kaasuautona</h3>
+<p class="blockIngress-b">Kaasuautoja l&ouml;ytyy <a href="/yksityisille/valitse-kaasuauto/kaasuautomallit/audi/">Audilta</a>, <a href="/yksityisille/valitse-kaasuauto/kaasuautomallit/seat/">Seatilta</a>, <a href="/yksityisille/valitse-kaasuauto/kaasuautomallit/skoda-yhteenveto/">&Scaron;kodalta</a> ja <a href="/yksityisille/valitse-kaasuauto/kaasuautomallit/volkswagen-yhteenveto/">Volkswagenilta</a>. Kaasuauton hankintahinta ei eroa merkitt&auml;v&auml;sti vastaavan bensiini- tai dieselk&auml;ytt&ouml;isen auton hinnasta. Kaasuauton voi hankkia my&ouml;s k&auml;ytettyn&auml; Suomesta tai ulkomailta.</p>
+<p class="blockIngress-b">&nbsp;</p>
+                    </div>
+                </div>
+                <div class="container">
+
+
+                </div>
+
+                <div class="bottom-content-area">
+                    <div><div>
+
+
+<div class="calculator textitem mt-block bg-6491f5 text-fff">
+	<div class="lr-padding-s blockIngress-s bg-6491f5 text-fff">
+
+		<div class="form" id="5826895">
+			<div><div>
+
+<form method="post"
+    enctype="multipart/form-data" class="EPiServerForms " data-epiforms-type="form" id="c78f623d-ee52-4d2f-87cc-164359b915d7">
+    
+      <script type="text/javascript" src="/EPiServer.Forms/DataSubmit/GetFormInitScript?formGuid=c78f623d-ee52-4d2f-87cc-164359b915d7&formLanguage=fi"></script>
+
+    
+    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized" name="__FormGuid" value="c78f623d-ee52-4d2f-87cc-164359b915d7" />
+    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized" name="__FormHostedPage" value="470" />
+    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized" name="__FormLanguage" value="fi" />
+    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized" name="__FormCurrentStepIndex" value="0" />
+    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized" name="__FormSubmissionId" value="" />
+
+    <h4 class="Form__Title">Laske paljonko s&#228;&#228;st&#228;isit kaasulla</h4>
+    <aside class="Form__Description">Sen lis&#228;ksi, ett&#228; kaasuautoilu on puhtaampaa, se on my&#246;s huomattavasti edullisempaa. Katso kuinka paljon s&#228;&#228;st&#228;t vaihtamalla kaasuun. </aside>
+
+    
+
+    
+    <div class="Form__Status">
+        <span class="Form__Status__Message hide">
+            
+
+            
+        </span>
+    </div>
+
+    <div class="Form__MainBody form-wrapper">
+        
+        <section id="__field_" data-epiforms-element-name="__field_" class="Form__Element FormStep Form__Element--NonData " data-epiforms-stepindex="0">
+            
+
+            <!-- Each FormStep groups the elements below it til the next FormStep -->
+            
+
+<div class="Form__Element FormTextbox  mar-top-5" data-epiforms-element-name="__field_2819">
+    
+        <label for="0abede9e-9e96-4e29-8e87-5c9cd39d8072" class="Form__Element__Caption">Ajom&#228;&#228;r&#228;</label>
+     
+
+    <input name="__field_2819" id="0abede9e-9e96-4e29-8e87-5c9cd39d8072" type="text" class="FormTextbox__Input"
+        placeholder="Km/vuosi" value=""  />
+
+    <span data-epiforms-linked-name="__field_2819" class="Form__Element__ValidationError mt-5" style="display: none;">*</span>
+</div>
+
+
+
+
+<div class="Form__Element FormTextbox  mar-top-5" data-epiforms-element-name="__field_2820">
+    
+        <label for="1810ccdb-4b5e-4e25-ae6b-0d06e6da5172" class="Form__Element__Caption">Auton keskikulutus</label>
+     
+
+    <input name="__field_2820" id="1810ccdb-4b5e-4e25-ae6b-0d06e6da5172" type="text" class="FormTextbox__Input"
+        placeholder="Litraa/100km" value=""  />
+
+    <span data-epiforms-linked-name="__field_2820" class="Form__Element__ValidationError mt-5" style="display: none;">*</span>
+</div>
+
+
+<div class="Form__Element FormChoice" data-f-element-name="__field_2821" data-f-type="choice" id="8e4cfea6-7262-41fc-9777-fa548b6b0f33">
+<fieldset>
+    
+    <legend class="Form__Element__Caption">Valitse nykyinen polttoaineesi</legend>
+    
+
+    <label>
+        
+        <input type="radio" name="__field_2821" value="Bensiini" class="FormChoice__Input FormChoice__Input--Radio"   data-f-datainput />
+        Bensiini</label>
+
+    
+
+    <label>
+        
+        <input type="radio" name="__field_2821" value="Diesel" class="FormChoice__Input FormChoice__Input--Radio"   data-f-datainput />
+        Diesel</label>
+
+    <span class="Form__Element__ValidationError" data-f-linked-name="__field_2821" data-f-validationerror="" style="display:none"></span>
+</fieldset>
+</div><input name="__RequestVerificationToken" type="hidden" value="zOSNgzMvddj5KLZnRbQa5yTiyTfcA9wutHTjG-FMziAQ5e6LEAWuaxgEOdsa7KrnM1tXmS9JfflaG0AEwnMZNgqI7paWgSPY7OUFLqI92tY1" />
+<button id="27cae3af-f8bc-4b0c-a26c-4bca4406cfb2" name="submit" type="submit" value="27cae3af-f8bc-4b0c-a26c-4bca4406cfb2" data-epiforms-is-finalized="false"
+    data-epiforms-is-progressive-submit="true"
+    class="Form__Element FormExcludeDataRebind FormSubmitButton epiforms-button"
+      formhash="58065401"
+    onclick="getGResponse(this)"
+    >
+    Katso s&#228;&#228;st&#246;si
+</button>
+
+
+
+
+
+
+
+        </section>
+
+        
+    </div>
+    
+</form>
+
+
+
+
+<script type="text/javascript">
+    $(function () {
+        $("body").on("focus", "input, textarea, select, :checkbox, :radio", function (e) {
+            if ($(this).is(":checkbox, :radio")) {
+                $(this).parent("label").toggleClass("focused", $(this).is(":focus"));
+            }
+            else {
+                $(this).parent(".Form__Element").addClass("focused");
+                $(this).prev("label").removeClass("transparent");
+            }
+        });
+
+        $("body").on("blur", "input, textarea, select, :checkbox, :radio", function (e) {
+            if ($(this).is(":checkbox, :radio")) {
+                $(this).parent("label").removeClass("focused");
+            }
+            else {
+                $(this).parent(".Form__Element").removeClass("focused");
+                toggleTransparent($(this));
+            }
+        });
+
+        $("body").on("change", ":checkbox, :radio", function (e) {
+            toggleSelections($(this));
+        });
+
+        $(":checkbox, :radio").each(function () {
+            toggleSelections($(this));
+        });
+
+        function toggleSelections($this) {
+            $this.parent("label").siblings("label").andSelf().each(function (){
+                $(this).toggleClass($(this).children().first().is(":checkbox") ? "checkbox-checked" : "radio-checked", $(this).children().first().prop("checked"));
+            })
+        }
+
+        function toggleTransparent($this) {
+            $this.prev("label").toggleClass("transparent", $this.val().length > 0);
+        }
+    });
+</script>
+
+
+</div></div>
+		</div>
+
+        <div class="result" id="11653790">
+            <div class="savings-container">
+                <div class="icon">
+                    <img data-ot-ignore class="optanon-category-C0001" src="/globalassets/gasum.com-fi/yksityisille/kampanjat/kiinteahinta---kampanja/possu.png" />
+                </div>
+                <div class="result-texts">
+                        <div class="savings">
+                            <h2>S&#228;&#228;st&#228;t:</h2>
+                            <p id="js-savings"></p><span>€/vuosi</span>
+                        </div>
+                                    </div>
+            </div>
+            <div class="comparison-container">
+                <div class="icon">
+                    <img data-ot-ignore class="optanon-category-C0001" src="/globalassets/all-images/icons/lehti.svg" />
+                </div>
+                <div class="result-texts">
+                    <div class="savings-detail">
+                        <h2>Säästösi on laskettu Gasumin tankkausasemilla voimassa olevalla maakaasun hinnalla. </h2>
+                        <p class="blockIngress-s">Tiesitk&ouml;, ett&auml; tankkaamalla uusiutuvaa biokaasua voit pienent&auml;&auml; autoilun kasvihuonekaasup&auml;&auml;st&ouml;j&auml; jopa 90 %? Biokaasun tuotantoon liittyy keskeisesti kiertotalous, sill&auml; biokaasua tuotetaan muun muassa bioj&auml;tteest&auml;. Laske <a href="/link/78c52be57c824ce9b111f7d13e7ed00f.aspx">t&auml;&auml;ll&auml;</a> kuinka paljon p&auml;&auml;st&ouml;si v&auml;henev&auml;t biokaasulla.&nbsp;</p>
+<p class="blockIngress-s">Kaasun kulutuksena on k&auml;ytetty Skoda Octavian tehtaan ilmoittamaa kulutuslukemaa.</p>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+                    <button class="epiforms-button js-go-again buttons-align-left buttons-margin">Tee testi uudelleen</button>
+                    <a href="/yksityisille/valitse-kaasuauto/kaasuautomallit/">
+                        <button class="epiforms-button">Tutustu kaasuautomalleihin</button>
+                    </a>
+
+
+        </div>
+	</div>
+
+</div>
+
+
+<script>
+    window.addEventListener('DOMContentLoaded', function () {
+        loadjs('/Content/dist/calculatorBlock.js', function () {
+            calculator(1.625, 1.489,
+                0.872, 2368, 2660,
+                1530, 5.9, 299200, "5826895", "11653790",
+                true, "harkitseva", 2147483647);
+        });
+    });
+
+    //Workaround for Safari 9's issue with spacebars and input modifications. 
+    jQuery(document).ready(function () {
+        if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+            $(".form").find(".FormTextbox__Input").each(function(){
+                $(this).prop('type', 'tel');
+            });
+        }
+    });
+</script></div><div>    <div class="swipeable-link-block">
+        <h3 class="blockHeader-b mb-0 mt-20 text-2d2d2d subheader">Mit&#228; seuraavaksi? Toimi n&#228;in:</h3>
+        <div class="inherit-flex swipeable-stackable ">
+            <div>
+
+
+
+    <div class="content-33-block hoverable-block-wrapper text-2d2d2d" style="">
+        <div class="display-block position-relative ">
+                <div class="position-relative">
+        <div class="block-hover-layer block-hover-arrow-small bottom-5"></div>
+            <img data-ot-ignore class="optanon-category-C0001" data-parent-scaling="true" data-scaling="/globalassets/all-images/800x565px-link-block/people/kaasuautossa-800x565.jpg" alt="SEAT kaasuauto" />
+    </div>
+
+            <div class="lr-padding-s bg-d2dce9 text-2d2d2d" style="">
+                <div class="categoryHeader-s">
+                    
+                </div>
+                <div class="categoryHeader-s">
+                    
+                </div>
+                <h3 class="blockHeader-s mb-0">
+                        <a href="/yksityisille/valitse-kaasuauto/kaasuautomallit/">1. Valitse kaasuauto</a>
+                </h3>
+
+                <div class="main-content-33 blockIngress-s">
+                        <div class="mb-40-mobile">
+                            <p class="blockIngress-s">Kaasuautoja l&ouml;ytyy yleisimmilt&auml; automerkeilt&auml; ja suosituimmista malleista. Valitse suosikkisi!</p>
+                        </div>
+
+                        <div class="cta-button">
+                                <div>
+                                    <a href="/yksityisille/valitse-kaasuauto/kaasuautomallit/" target="_self" class="link-button">
+                                        Tutustu kaasuautoihin
+                                    </a>
+                                </div>
+
+                        </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="content-33-block hoverable-block-wrapper text-2d2d2d" style="">
+        <div class="display-block position-relative ">
+                <div class="position-relative">
+        <div class="block-hover-layer block-hover-arrow-small bottom-5"></div>
+            <img data-ot-ignore class="optanon-category-C0001" data-parent-scaling="true" data-scaling="/globalassets/all-images/800x565px-link-block/gascard.jpg" alt="Hanki GasCard" />
+    </div>
+
+            <div class="lr-padding-s bg-d2dce9 text-2d2d2d" style="">
+                <div class="categoryHeader-s">
+                    
+                </div>
+                <div class="categoryHeader-s">
+                    
+                </div>
+                <h3 class="blockHeader-s mb-0">
+                        <a href="/yksityisille/tankkaa-kaasua/kaasutankkausasemilla-maksaminen/">2. Hanki GasCard</a>
+                </h3>
+
+                <div class="main-content-33 blockIngress-s">
+                        <div class="mb-40-mobile">
+                            <p class="blockIngress-s">Gasumin maksuaikakortilla hoidat maksamisen helposti kaikilla tankkausasemillamme. Saat my&ouml;s 1 % maksutapaedun polttoaineen hinnasta.</p>
+                        </div>
+
+                        <div class="cta-button">
+                                <div>
+                                    <a href="/yksityisille/tankkaa-kaasua/kaasutankkausasemilla-maksaminen/" class="link-button">
+                                        Lue lis&#228;&#228;
+                                    </a>
+                                </div>
+
+                        </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="content-33-block hoverable-block-wrapper text-2d2d2d" style="">
+        <div class="display-block position-relative ">
+                <div class="position-relative">
+        <div class="block-hover-layer block-hover-arrow-small bottom-5"></div>
+            <img data-ot-ignore class="optanon-category-C0001" data-parent-scaling="true" data-scaling="/globalassets/all-images/800x565px-link-block/hyodynna_etusi_3_800x565.jpg" alt="Tankkaa biokaasua" />
+    </div>
+
+            <div class="lr-padding-s bg-d2dce9 text-2d2d2d" style="">
+                <div class="categoryHeader-s">
+                    
+                </div>
+                <div class="categoryHeader-s">
+                    
+                </div>
+                <h3 class="blockHeader-s mb-0">
+                        <a href="/yksityisille/tankkaa-kaasua/tankkausasemat/">3. Tankkaa l&#228;himm&#228;ll&#228; asemallasi</a>
+                </h3>
+
+                <div class="main-content-33 blockIngress-s">
+                        <div class="mb-40-mobile">
+                            <p class="blockIngress-s">Tankkaa maa- tai biokaasua asemiltamme ymp&auml;ri Suomen ja huristele kohti puhtaampaa liikennett&auml;!</p>
+                        </div>
+
+                        <div class="cta-button">
+                                <div>
+                                    <a href="/yksityisille/tankkaa-kaasua/tankkausasemat/" target="_self" class="link-button">
+                                        Katso asemat
+                                    </a>
+                                </div>
+
+                        </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+            </div>
+        </div>
+    </div>
+
+</div><div>    <div class="display-block block-padding-right flex-basis-0 video-block">
+                <p class="youtubeheader subheader">Olisinpa tiennyt aiemmin, ett&#228; t&#228;ysi kaasutankillinen maksaa vain vajaat 30 €</p>
+
+    
+        <div class="youtube-block-iframe-wrapper block-margin-right ">
+
+            <div class="video-image display-block" yt-id="u7kwbzXm0-4">
+                
+                <img data-ot-ignore class="optanon-category-C0001" data-parent-scaling="true" data-scaling="https://i1.ytimg.com/vi/u7kwbzXm0-4/maxresdefault.jpg" title="u7kwbzXm0-4" />
+                <div class="yt-block-play-button" data-video-name="Olisinpa tiennyt aiemmin, ett&#228; t&#228;ysi kaasutankillinen maksaa vain vajaat 30 €">
+                    <svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%">
+                        <path d="m .66,37.62 c 0,0 .66,4.70 2.70,6.77 2.58,2.71 5.98,2.63 7.49,2.91 5.43,.52 23.10,.68 23.12,.68 .00,-1.3e-5 14.29,-0.02 23.81,-0.71 1.32,-0.15 4.22,-0.17 6.81,-2.89 2.03,-2.07 2.70,-6.77 2.70,-6.77 0,0 .67,-5.52 .67,-11.04 l 0,-5.17 c 0,-5.52 -0.67,-11.04 -0.67,-11.04 0,0 -0.66,-4.70 -2.70,-6.77 C 62.03,.86 59.13,.84 57.80,.69 48.28,0 34.00,0 34.00,0 33.97,0 19.69,0 10.18,.69 8.85,.84 5.95,.86 3.36,3.58 1.32,5.65 .66,10.35 .66,10.35 c 0,0 -0.55,4.50 -0.66,9.45 l 0,8.36 c .10,4.94 .66,9.45 .66,9.45 z" fill="#1f1f1e" fill-opacity="0.9"></path>
+                        <path d="m 26.96,13.67 18.37,9.62 -18.37,9.55 -0.00,-19.17 z" fill="#fff"></path>
+                        <path d="M 45.02,23.46 45.32,23.28 26.96,13.67 43.32,24.34 45.02,23.46 z" fill="#ccc"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="video-player">
+
+            </div>
+        </div>
+    </div>
+</div><div>
+</div></div>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div class="contentpage-link next-page contentpage-flex-col-10">
+</div>
+    </div>
+
+    
+    
+    
+
+</div>
+
+
+        <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"item": {
+"@id": "https://www.gasum.com",
+"name": "Etusivu"
+}
+},{
+"@type": "ListItem",
+"position": 2,
+"item": {
+"@id": "https://www.gasum.com/yksityisille/",
+"name": "Yksityisille"
+}
+},{
+"@type": "ListItem",
+"position": 3,
+"item": {
+"@id": "https://www.gasum.com/yksityisille/tankkaa-kaasua/tankkaushinnat/",
+"name": "Tankkaushinnat"
+}
+},
+        ]
+    }
+</script>
+    </div>
+
+    
+<link href="/Content/css/prints.css" rel="stylesheet" />
+<footer class="site-footer">
+    <div class="container">
+        <div class="flex-row">
+            <div class="logo-col">
+                <a href="/Yrityksille/" class="gasum-logo-link">
+                        <img data-ot-ignore src="/globalassets/all-images/logos/gasum_logo_white.svg" alt="logotype" class="gasum-logo optanon-category-C0001">
+                </a>
+            </div>
+            <div class="text-col centered gasumtext">
+                <p class="blockIngress-s">Energiayhti&ouml; Gasum&nbsp;on pohjoismainen kaasualan ja energiamarkkinoiden asiantuntija, joka yhdess&auml; kumppaniensa kanssa edist&auml;&auml; kehityst&auml; kohti hiilineutraalia yhteiskuntaa.</p>
+            </div>
+            <div class="some-col right">
+                <div class="some-wrapper">
+                        <a href="/gasum-yrityksena/medialle/seuraa-meita/">Seuraa meit&#228;</a>
+                                    </div>
+            </div>
+        </div>
+        <div class="flex-row quicklink-row">
+            <div class="flex-col-100 centered">
+                        <div class="footerquicklinks">
+                                <div class="quicklink">
+                                    <a href="/yksityisille/tankkaa-kaasua/tankkausasemat/" target="_self">
+                                        <div>
+                                            <img data-ot-ignore class="white optanon-category-C0001" src="/globalassets/gasum-global-site/quicklinks/small-margin-icons/white-new/car_front_white_rgb.svg" />
+                                            <img data-ot-ignore class="blue optanon-category-C0001" src="/globalassets/gasum-global-site/quicklinks/small-margin-icons/blue-new/car_front_blue_rgb.svg" />
+                                            <img data-ot-ignore class="red optanon-category-C0001" src="" />
+                                            <p>Tankkausasemat</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="quicklink">
+                                    <a href="/gasum-yrityksena/medialle/mediayhteydet/" target="_self">
+                                        <div>
+                                            <img data-ot-ignore class="white optanon-category-C0001" src="/globalassets/gasum-global-site/quicklinks/small-margin-icons/white-new/media_white_rgb.svg" />
+                                            <img data-ot-ignore class="blue optanon-category-C0001" src="/globalassets/gasum-global-site/quicklinks/small-margin-icons/blue-new/media_blue_rgb.svg" />
+                                            <img data-ot-ignore class="red optanon-category-C0001" src="" />
+                                            <p>Medialle</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="quicklink">
+                                    <a href="/gasum-yrityksena/organisaatio/yhteystiedot/" target="_self">
+                                        <div>
+                                            <img data-ot-ignore class="white optanon-category-C0001" src="/globalassets/gasum-global-site/quicklinks/small-margin-icons/white-new/location_white_rgb.svg" />
+                                            <img data-ot-ignore class="blue optanon-category-C0001" src="/globalassets/gasum-global-site/quicklinks/small-margin-icons/blue-new/location_blue_rgb.svg" />
+                                            <img data-ot-ignore class="red optanon-category-C0001" src="" />
+                                            <p>Yhteystiedot</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="quicklink">
+                                    <a href="/gasum-yrityksena/organisaatio/yhteystiedot/asiakaspalvelu/" target="_self">
+                                        <div>
+                                            <img data-ot-ignore class="white optanon-category-C0001" src="/globalassets/gasum-global-site/quicklinks/small-margin-icons/white-new/expert_white_rgb.svg" />
+                                            <img data-ot-ignore class="blue optanon-category-C0001" src="/globalassets/gasum-global-site/quicklinks/small-margin-icons/blue-new/expert_blue_rgb.svg" />
+                                            <img data-ot-ignore class="red optanon-category-C0001" src="" />
+                                            <p>Asiakaspalvelu</p>
+                                        </div>
+                                    </a>
+                                </div>
+                        </div>
+
+
+                <div class="mobilefooterlinks">
+                    <div class="">
+                            <a href="/gasum-yrityksena/medialle/seuraa-meita/">
+                                <span>Seuraa meit&#228;</span>
+                                <span class="float-right arrow-right-white"></span>
+                            </a>
+                                            </div>
+                    <div>
+                        <a href="/gasum-yrityksena/organisaatio/yhteystiedot/">
+                            <span>Yhteystiedot</span>
+                            <span class="float-right arrow-right-white"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-row footer-bottom-row">
+            <div class="copyright-col">
+                &#169; Copyright Gasum Oy 2021
+            </div>
+            <div class="links-col">
+                <div style="white-space: nowrap;">
+                    <text>
+                            <a class="ot-sdk-show-settings"></a><span>&nbsp;|</span>
+                        <a href="/globalassets/pdf-files/privacy-statements/gasum_group_privacy_statement_fin_17032020.pdf">Tietosuojaseloste</a>&nbsp;|
+                        <span class="backtotop">
+                            Takaisin yl&#246;s
+                            <i class="fa fa-long-arrow-up"></i>
+                        </span>
+                    </text>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    
+
+
+
+    
+    <script type="text/javascript" src="/WebResource.axd?d=TzRGlCddaaqtz0Im2nSJhMfzyLR-uaUuZAyd32X-hnhIwII7WsdR4JvxlqOWlLFw_wAmU1uljkmKcMApf134V4ss2Vce25hINSPf8V3t6YpSp61ygpVbwYbga-TT-_9CJHvRIIsElszLIJ2v0cRhZBWsN3vSeNIddGYaAioOm_o1&t=637182158680000000"></script>
+
+
+    <script data-ot-ignore defer src="/Content/js/angularAnimate/angular-animate.min.js"></script>
+
+    <script defer>
+        window.addEventListener('DOMContentLoaded', function () {
+            GasumFi.Main.subNavigationEvent();
+        });
+    </script>
+
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    
+    <script defer type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5950ae6755fc86ea"></script>
+
+    <script>
+        $(document).ready(function () {
+            // removes flexible content area block's restrict width class in there's less than 3 items
+            GasumFi.Main.setImageSrcs();
+            GasumFi.Main.removeRestrictWidth();
+            GasumFi.Main.accordionBlock();
+            GasumFi.Main.setNewsLiftHeaderHeight();
+            GasumFi.Main.setImageAccordionHeight();
+            GasumFi.Main.setLinkBlockCollectionHeights();
+            GasumFi.Main.accordionImageTextBlock();
+            var MOBILE = false;
+            GasumFi.Main.sliderGasettiFrontPageInit(MOBILE);
+            GasumFi.Main.injectAddThis();
+
+        });
+    </script>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', function () {
+            window.twttr = (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                    t = window.twttr || {};
+                if (d.getElementById(id)) return t;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "https://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+
+                t._e = [];
+                t.ready = function (f) {
+                    t._e.push(f);
+                };
+
+                return t;
+            }(document, "script", "twitter-wjs"));
+        });
+    </script>
+
+
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "Gasum",
+  "alternateName": "Gasum.com",
+  "url": "https://www.gasum.com"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "https://www.gasum.com",
+  "address": {
+    "@type": "PostalAddress",
+    "name": "Gasum HQ",
+    "addressLocality": "Espoo",
+    "addressRegion": "FI",
+    "postalCode": "02150",
+    "addressCountry": "FI",
+    "streetAddress": "Miestentie 1"
+  },
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+358020 4471",
+    "contactType": "customer service",
+    "areaServed": "FI"
+  }]
+}
+</script>
+
+<!--Genesys Cloud Chat-->
+<script>
+window.addEventListener('DOMContentLoaded', function () {
+	(function () {
+		var now = new Date();
+		var hour = now.getUTCHours();
+		var day = now.getDay();
+
+		// Enabled Monday-Friday between 8-17
+		var businessHoursStart = 5,
+		businessHoursEnd = 14,
+		monday = 1,
+		friday = 5;
+		if (!(hour >= businessHoursStart && hour < businessHoursEnd && day >= monday && day <= friday)) 
+			return;
+
+		var pages = [
+			"gasum.com/yksityisille/tankkaa-kaasua/",
+			"gasum.com/yrityksille/puhdas-liikenne/aja-kaasulla/",
+			"gasum.com/yrityksille/puhdas-liikenne/kuljeta-kaasulla/"
+		];
+
+		var showChat = false;
+		var currectUrl = ('' + window.location.href).toLowerCase();
+
+		pages.forEach((targetUrl) => {
+			if (currectUrl.indexOf(targetUrl) > 0) {
+				showChat = true;
+			}
+		});
+		if (!showChat)
+			return;
+
+		loadjs(['https://nesenta-chat.s3-eu-west-1.amazonaws.com/gasum/gasum-bundle.js', 'https://apps.mypurecloud.de/widgets/9.0/cxbus.min.js'], function () {
+			CXBus.configure({
+				pluginsPath: 'https://apps.mypurecloud.de/widgets/9.0/plugins/'
+			});
+			CXBus.loadPlugin('widgets-core');
+		});
+	})();
+});
+</script>
+<!--END Genesys Cloud Chat-->;
+
+
+
+
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Espoo",
+                "postalCode": "02600 ",
+                "addressRegion": "Espoo",
+                "streetAddress": "Perkkaantie 17 ",
+                "addressCountry": "FI"
+                },
+                "geo": "60.217361111,24.835166667",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Espoo",
+                "postalCode": "02240 ",
+                "addressRegion": "Espoo",
+                "streetAddress": "Kuitinm&#228;entie 26   ",
+                "addressCountry": "FI"
+                },
+                "geo": "60.16175,24.71721",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Helsinki",
+                "postalCode": "00770 ",
+                "addressRegion": "Helsinki",
+                "streetAddress": "Tattariharjuntie 41 ",
+                "addressCountry": "FI"
+                },
+                "geo": "60.252916667,25.063444445",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Helsinki",
+                "postalCode": "00310 ",
+                "addressRegion": "Helsinki",
+                "streetAddress": "Hakam&#228;enkuja 1   ",
+                "addressCountry": "FI"
+                },
+                "geo": "60.207558333,24.904997222",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Helsinki",
+                "postalCode": "00580 ",
+                "addressRegion": "Helsinki",
+                "streetAddress": "Vanha Talvitie 21   ",
+                "addressCountry": "FI"
+                },
+                "geo": "60.192649,24.978079",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Hyvink&#228;&#228;",
+                "postalCode": "05800 ",
+                "addressRegion": "Hyvink&#228;&#228;",
+                "streetAddress": "Kerkkolankatu 39 ",
+                "addressCountry": "FI"
+                },
+                "geo": "60.65673,24.8479",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Kotka",
+                "postalCode": "48770 ",
+                "addressRegion": "Kotka",
+                "streetAddress": "Haminantie 1",
+                "addressCountry": "FI"
+                },
+                "geo": "60.542250000,26.975638889",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Kouvola",
+                "postalCode": "45130  ",
+                "addressRegion": "Kouvola",
+                "streetAddress": "Tommolankatu 5",
+                "addressCountry": "FI"
+                },
+                "geo": "60.872888889,26.661111111",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Lahti",
+                "postalCode": "15500 ",
+                "addressRegion": "Lahti",
+                "streetAddress": "Pohjoinen Liipolankatu 6 ",
+                "addressCountry": "FI"
+                },
+                "geo": "60.96574,25.65619",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Lohja",
+                "postalCode": "08680 ",
+                "addressRegion": "Lohja",
+                "streetAddress": "Mineraalintie 1 ",
+                "addressCountry": "FI"
+                },
+                "geo": "60.29959,24.21475",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Lohja",
+                "postalCode": "08100",
+                "addressRegion": "Lohja",
+                "streetAddress": "Tytyrinkatu 4 ",
+                "addressCountry": "FI"
+                },
+                "geo": "60.259595,24.063309",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Lappeenranta",
+                "postalCode": "53100",
+                "addressRegion": "Lappeenranta",
+                "streetAddress": "Simolantie 14",
+                "addressCountry": "FI"
+                },
+                "geo": "61.045222222,28.179750000",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Porvoo",
+                "postalCode": "06100  ",
+                "addressRegion": "Porvoo",
+                "streetAddress": "Harabackankatu 16 ",
+                "addressCountry": "FI"
+                },
+                "geo": "60.396016667,25.619150000",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                
+"openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Riihim&#228;ki",
+                "postalCode": "11710  ",
+                "addressRegion": "Riihim&#228;ki",
+                "streetAddress": "Merkoksenkatu 2  ",
+                "addressCountry": "FI"
+                },
+                "geo": "60.720677778,24.736233333",
+                "description": "Gasum tankkausasema
+",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Tampere",
+                "postalCode": "33800  ",
+                "addressRegion": "Tampere",
+                "streetAddress": "Viinikankatu 40 ",
+                "addressCountry": "FI"
+                },
+                "geo": "61.479500000,23.782416667",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Imatra",
+                "postalCode": "55120  ",
+                "addressRegion": "Imatra",
+                "streetAddress": "Kertakaari 4  ",
+                "addressCountry": "FI"
+                },
+                "geo": "61.1861,28.7453",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Tampere",
+                "postalCode": "33400 ",
+                "addressRegion": "Tampere",
+                "streetAddress": "Energiankatu 5",
+                "addressCountry": "FI"
+                },
+                "geo": "61.514445,23.676215",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                
+"openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Pori",
+                "postalCode": "28500",
+                "addressRegion": "Pori",
+                "streetAddress": "Maamiehenkatu 2",
+                "addressCountry": "FI"
+                },
+                "geo": "61.477664, 21.780958",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                
+"openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "H&#228;meenlinna",
+                "postalCode": "13600",
+                "addressRegion": "H&#228;meenlinna",
+                "streetAddress": "Paroistentie 2",
+                "addressCountry": "FI"
+                },
+                "geo": "61.015613, 24.417850",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                
+"openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Vantaa",
+                "postalCode": "01720",
+                "addressRegion": "Vantaa",
+                "streetAddress": "Klinkkerikaari 1",
+                "addressCountry": "FI"
+                },
+                "geo": "60.279659, 24.815721 ",
+                "description": "Gasum tankkausasema",
+                "name": " Gasum tankkausasema",
+                "telephone": "  +358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Espoo",
+                "postalCode": "02740",
+                "addressRegion": "Espoo",
+                "streetAddress": "Espoontie 21",
+                "addressCountry": "FI"
+                },
+                "geo": "60.216667, 24.663154",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "  +358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Salo",
+                "postalCode": "24260",
+                "addressRegion": "",
+                "streetAddress": "Ruoksm&#228;entie 1",
+                "addressCountry": "FI"
+                },
+                "geo": "60.418994, 23.163384",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Vantaa",
+                "postalCode": "01200",
+                "addressRegion": "",
+                "streetAddress": "Porttisuontie 18",
+                "addressCountry": "FI"
+                },
+                "geo": "60.278105, 25.081621",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Helsinki",
+                "postalCode": "00880 ",
+                "addressRegion": "Helsinki",
+                "streetAddress": "Viilarintie 7  ",
+                "addressCountry": "FI"
+                },
+                "geo": "60.21388,25.0598",
+                "description": "Gasum tankkausasema
+",
+                "name": " Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Helsinki",
+                "postalCode": "00960 ",
+                "addressRegion": "Helsinki",
+                "streetAddress": "Provianttikatu 6",
+                "addressCountry": "FI"
+                },
+                "geo": "60.222164, 25.176219",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Oulu",
+                "postalCode": "90400",
+                "addressRegion": "Oulu",
+                "streetAddress": "Terminaalitie 1",
+                "addressCountry": "FI"
+                },
+                "geo": "64.987343, 25.439381",
+                "description": "Gasum LNG-tankkausasema",
+                "name": "Gasum LNG-tankkausasema",
+                "telephone": "+358020 4471",
+                
+"openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Lieto",
+                "postalCode": "21420",
+                "addressRegion": "Lieto",
+                "streetAddress": "Etel&#228;kaari 1",
+                "addressCountry": "FI"
+                },
+                "geo": "60.46782, 22.39528",
+                "description": "Gasum LNG-tankkausasema",
+                "name": "Gasum LNG-tankkausasem",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Turku",
+                "postalCode": "20200 ",
+                "addressRegion": "Turku",
+                "streetAddress": "Tuontiv&#228;yl&#228; 2",
+                "addressCountry": "FI"
+                },
+                "geo": "60.447275, 22.213142",
+                "description": "Gasum tankkausasema
+",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                
+"openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Jyv&#228;skyl&#228;",
+                "postalCode": "40800",
+                "addressRegion": "Jyv&#228;skyl&#228;",
+                "streetAddress": "Mets&#228;lehmuksentie 9 ",
+                "addressCountry": "FI"
+                },
+                "geo": "62.230428, 25.915004",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                
+"openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Vantaa",
+                "postalCode": "01690",
+                "addressRegion": "Vantaa",
+                "streetAddress": "Tuupakantie 25",
+                "addressCountry": "FI"
+                },
+                "geo": "60.293229, 24.913756",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+358020 4471",
+                
+"openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Sein&#228;joki",
+                "postalCode": "60100",
+                "addressRegion": "Sein&#228;joki",
+                "streetAddress": "Piirturiv&#228;yl&#228; 1&#160;",
+                "addressCountry": "FI"
+                },
+                "geo": "62.764667, 22.927667",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum tankkausasema",
+                "telephone": "+3580204471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+            <script type="application/ld+json" defer>
+                {
+                "@context": "http://schema.org",
+                "@type": "GasStation",
+                "image": "https://www.gasum.com/Content/images/icons/logos/Gasum_FB_1200x650.jpg",
+                "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Kuopio",
+                "postalCode": "70800",
+                "addressRegion": "Kuopio",
+                "streetAddress": "Kranaattikuja 2",
+                "addressCountry": "FI"
+                },
+                "geo": "62.843952, 27.597496",
+                "description": "Gasum tankkausasema",
+                "name": "Gasum Kuopio tankkausasema",
+                "telephone": "+358020 4471",
+                "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+]
+                }
+            </script>
+
+    <link rel="stylesheet" href="/Content/css/prints.css" type="text/css" />
+
+</body>
+</html>
