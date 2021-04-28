@@ -1,7 +1,7 @@
 {
   "name": "gas-price-monitor-tool",
   "version": "1.0.0",
-  "description": "",
+  "description": "Serverless + AWS project for monitoring gas prices",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/**/*.test.js"

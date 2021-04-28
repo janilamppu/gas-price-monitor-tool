@@ -44,6 +44,7 @@ describe('Poller tests', () => {
   after(() => {
     // restore mocked env
     mockEnv();
+    AWS.restore();
   });
 
   beforeEach(() => {
