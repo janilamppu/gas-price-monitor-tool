@@ -14,17 +14,22 @@ const getPriceData = async () => {
 const subscribe = async body => {
   const email = body.email;
   const subscriptions = body.subscriptions;
+  const lang = body.lang;
 
   if (!email || !subscriptions) {
     throw new Error('Missing either email or subscriptions from payload');
+  }
+
+  if (lang !== 'fi' && lang !== 'en') {
+    throw new Error('Valid languages are: en, fi');
   }
 
   if (!validateEmail(email)) {
     throw new Error('Email address is invalid');
   }
 
-  await writeSubscriptionToDynamo(email, subscriptions);
-  return { email, subscriptions };
+  await writeSubscriptionToDynamo(email, subscriptions, lang);
+  return { email, subscriptions, lang };
 };
 
 module.exports = {

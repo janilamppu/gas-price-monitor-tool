@@ -15,6 +15,7 @@ const {
 
 describe('API tests', () => {
   let dynamoWriteStub;
+
   before(() => {
     // mock environment variables
     mockEnv = mockedEnv({

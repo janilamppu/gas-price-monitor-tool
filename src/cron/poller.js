@@ -69,7 +69,9 @@ const handleChangeNotifications = async (oldPrices, newPrices) => {
   // send notifications
   const receivers = Object.keys(notifications);
   receivers.forEach(async receiver => {
-    await sendEmail(receiver, notifications[receiver]);
+    const subscription = subscriptions.find(sub => sub.email === receiver);
+    const language = subscription.lang;
+    await sendEmail(receiver, notifications[receiver], language);
   });
 };
 

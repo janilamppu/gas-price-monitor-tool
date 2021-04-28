@@ -36,21 +36,22 @@ const writePriceDataToS3 = async body => {
   await s3.putObject(params).promise();
 };
 
-const sendEmail = async (receiver, changes) => {
+const sendEmail = async (receiver, changes, lang) => {
   const ses = new AWS.SES({ region: process.env.AWS_REGION });
   console.log('Sending email', receiver, changes);
-  const messages = mapChangesToMessageLines(changes);
-  const params = constructEmailParams(receiver, messages);
+  const messages = mapChangesToMessageLines(changes, lang);
+  const params = constructEmailParams(receiver, messages, lang);
   await ses.sendEmail(params).promise();
 };
 
-const writeSubscriptionToDynamo = async (email, subscriptions) => {
+const writeSubscriptionToDynamo = async (email, subscriptions, lang) => {
   const docClient = new AWS.DynamoDB.DocumentClient({
     region: process.env.AWS_REGION,
   });
   const item = {
     email,
     subscriptions,
+    lang,
   };
   const params = {
     TableName: process.env.subscriptionsTableName,

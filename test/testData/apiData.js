@@ -21,6 +21,7 @@ const mockEventPostSubscription = {
       naturalgas: { zone1: true, zone2: true },
       biogas: { zone1: true, zone2: true },
     },
+    lang: 'fi',
   }),
 };
 

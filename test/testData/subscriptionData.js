@@ -5,6 +5,7 @@ const subscribedItems = [
       naturalgas: { zone1: true, zone2: true },
       biogas: { zone1: true, zone2: true },
     },
+    lang: 'fi',
   },
 ];
 
@@ -15,6 +16,7 @@ const unsubscribedItems = [
       naturalgas: { zone1: false, zone2: false },
       biogas: { zone1: false, zone2: false },
     },
+    lang: 'fi',
   },
 ];
 
